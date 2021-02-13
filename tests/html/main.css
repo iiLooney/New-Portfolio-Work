@@ -1,0 +1,10 @@
+body{
+    margin: 80px;
+}
+nav{
+    color: blue;
+}
+span.logo-main {
+    opacity: 10%;
+    max-width: 50px;
+}

@@ -1,0 +1,77 @@
+headings
+
+<head>
+<body>
+<!DOCTYPE html>
+<div> causes line breaks, creates boxes on page,
+to separate items
+<span> target without line breaks
+<title>
+<link rel="stylesheet" type="text/css" href=""
+(linking html and css)
+
+
+
+content
+
+<p>
+<img src="">
+<h1>
+<h2>
+<a href=""<>> hyperlink text
+<ul> <ol> unordered/ordered list
+<li> list items
+<alt=""> seo tag name of image
+<meta>
+
+
+properties
+
+<height>
+<width> (px)
+<br> line break
+<hr> horizontal line across page
+id="" individual labels that cant be shared
+class="" create groupings with same properties css
+<link rel="icon" type="image/png" href=""/>
+css
+#name = id
+.name = class
+nav, h1, p = grouping selection
+
+properties
+text-align
+margin margin-left margin-right etc
+background-color
+color
+opacity
+text decoration
+line-height
+min/max-height
+min/max-width
+display
+justify-content
+outline-offset
+outline
+position
+mix-blend-mode
+transition
+stroke
+stroke-width
+fill
+cursor
+font-style
+font-weight
+position
+vertical-align
+top/bottom
+width
+padding
+text-decroation
+font-family
+float (allows the obejct to go side to side)
+clear (clears the float)
+
+
+
+what happens inside a div tag STAYS inside a div tag
