@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" />
+  <meta name="keywords" content="Director of photography" />
+  <meta name="url" content="http://dylanlooney.com" />
+  <link rel="canonical" href="http://dylanlooney.com" />
+  <meta property="og:title" content="Dylan Looney" />
+  <meta property="og:description" />
+  <meta property="og:url" content="http://dylanlooney.com" />
+  <meta property="og:site_name" content="Dylan Looney" />
+  <meta property="og:type" content="website" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/vhs-fav.png" type="img/png" sizes="16x16">
+  <script src="https://kit.fontawesome.com/1bab87b9fd.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" type="text/css" href="navtest.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <title>Dylan Looney</title>
+</head>
+<header>
+<div id="page-wrap">
+    <nav class="navbar">
+        <div class="content">
+          <div class="brand"><a href="/" class="brand-brand-text">
+            <span class="brand-title">Dylan Looney</span>
+                <span class="brand-subtitle">DP - Colorist</span></a></div>
+          <div class="logo">
+            <a href="nav.html"><img src="images/Image-Logo2.png"></a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="pages/biography.html">Biography</a></li>
+            <li><a href="pages/cv.html">CV</a></li>
+            <li><a href="pages/work.html">Work</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+
+    </header>
+
+    <body>
+    <div class="wrapper">
+        <div class="image-container">
+          <img class="image-img" src="images/Image--1.png"></img>
+          <div class="image-overlay">
+            <div class="image-heading">Showreel 2021</div>
+            <p class="image-description">Cinematography</p>
+          </div>
+        </div>
+        <div class="gap"></div>
+        <div class="banner-container">
+            <div class="single-img">
+              <a href="pages/work.html"><img src="images/banner.png"></a></div>
+            <div class="image-overlay">
+              <div class="image-heading">Other Projects</div>
+              <p class="image-description">Camera and Editing Roles...</p>
+            </div>
+        </div>
+    </div>
+
+      </body>
+
+      <footer class="footer-container">
+        <ul class="socials">
+            <li><a href="https://vimeo.com/user66565364" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+            <li><a href="mailto:dylanlooney@gmail.com"><i class="far fa-envelope"></i></a></li>
+            <li><a href="https://www.instagram.com/dyl__ney" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p> &copy; 2021 Dylan Looney All Rights Reserved</p>
+    </footer>
+</div>
+</html>

@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+    .flexgrid{
+        padding-top: .5rem;
+        display: inline-flex;
+        flex-wrap: wrap;
+        position: relative;
+        
+      
+      
+      .flexgrid img{
+        width: 100%;
+        display: block;
+        padding: .5rem;
+        justify-content: center;
+        align-items: center;
+        
+      }}
+
+.footer-container{
+    background-color: #F2EFF3;
+    height: auto;
+    width:100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding-top: 10px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #0983A0;
+    transition: color .2s ease;
+    font-size: 2rem;
+}
+
+.socials li{
+    margin: 0 20px;
+}
+
+.socials a:hover{
+    color: #9E0A23;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 30px;
+    
+
+}
+
