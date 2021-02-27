@@ -21,8 +21,8 @@ html{
 }
 
 #page-wrap {
-  min-height: calc(100vh - 212px);
-  /* 80px header + 40px footer = 120px  */
+  min-height: calc(100vh - 650px);
+  /* Keeps Footer at bottom of page?!? */
 }
 
 header{
