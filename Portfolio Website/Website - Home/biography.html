@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" />
+  <meta name="keywords" content="Director of photography" />
+  <meta name="url" content="http://dylanlooney.com" />
+  <link rel="canonical" href="http://dylanlooney.com" />
+  <meta property="og:title" content="Dylan Looney" />
+  <meta property="og:description" />
+  <meta property="og:url" content="http://dylanlooney.com" />
+  <meta property="og:site_name" content="Dylan Looney" />
+  <meta property="og:type" content="website" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/home/vhs-fav.png" type="img/png" sizes="16x16">
+  <script src="https://kit.fontawesome.com/1bab87b9fd.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" type="text/css" href="navtest.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <link rel="stylesheet" type="text/css" href="biography.css">
+  <title>Dylan Looney | Camera Trainee | Freelance Cinematographer</title>
+  <meta name="description" content="Dylan Looney work@dylanlooney.com +447723041747s">
+
+</head>
+<body>
+<header>
+<div id="page-wrap">
+    <nav class="navbar">
+        <div class="content">
+          <div class="brand"><a href="portfolio.html" class="brand-brand-text">
+            <span class="brand-title">Dylan Looney</span>
+                <span class="brand-subtitle">DP - Colorist</span></a></div>
+          <div class="logo">
+            <a href="nav.html"><img src="images/home/Image-Logo2.png"></a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="resources/CV-Submission-1112441.pdf" target="_blank">CV</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a id="ig-nav" href="https://www.instagram.com/dyl__visuals" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+            <li><a id="in-nav" href="https://www.linkedin.com/in/dylanlooney/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+
+    </header>
+    <div class="bio-container">
+        <div class="img-col">
+            <div class="img">
+                <img src="images/biography/Bio-1.png">
+            </div>
+        </div>
+        <div class="text-col">
+            <div class="text">
+                <h3>Dylan Looney is a camera and visuals oriented individual, currently studying at Screen and Film School Brighton. Having taken on the role of Director of Photography on numerous short films and music videos, Dylan feels confident and competent with crafting the visual aesthetic of a piece.
+                    Some of this work can be seen in the "Work" tab above, with his most recent short film being Cohuleen Driuth, which received acclaim at xyz film festivals.
+                    <br>
+                    <br>
+                    Dylan has also ventured into the world of the colorist on numerous occasions, grading over 10 short films to a professional standard. He has been grading clips on DaVinci Resolve for over 4 years and feels confident in acquiring the client's intended look on each and every project,
+                    <br><br>Becoming competent within a range of skills is something Dylan relishes, most recently learning web development in order to personally make this website to his vision!
+                    Once graduated, Dylan is excited to kick-start his career in the industry by working freelance in trainee roles, as well as shooting more sort films on the side to continue working on his craft.</h3>
+            </div>
+        </div>
+    </div>
+    <div class="bio-container">
+        <div class="text-col">
+            <div class="text">
+
+            </div>
+        </div>
+        <div class="img-col">
+            <div class="img">
+                <img  class="img2" src="images/biography/Bio-2.png">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container">
+      <ul class="socials">
+          <li><a href="https://www.instagram.com/dyl__visuals" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/dylanlooney/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://vimeo.com/user66565364" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+          <li><a href="mailto:dylanlooney@gmail.com"><i class="far fa-envelope"></i></a></li>
+      </ul>
+      <p> &copy; 2021 Dylan Looney All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+    
+
+      
+
+</html>

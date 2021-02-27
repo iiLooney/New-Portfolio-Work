@@ -2,21 +2,27 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
+    height: 100%;
+
 
 }
 
 .footer-container{
     background-color: #F2EFF3;
-    height: auto;
-    width:100vw;
+    height: 20%;
+    width:100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
-    padding-top: 10px;
+    padding-top: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 2rem 0 0 0;
+    top: 100%;
 }
 
 .socials{
@@ -24,14 +30,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
+    margin-right: 50px;
+    
 }
 
 .socials a{
     text-decoration: none;
     color: #0983A0;
     transition: color .2s ease;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .socials li{
