@@ -20,6 +20,11 @@ html{
   padding: 0;
 }
 
+#page-wrap {
+  min-height: calc(100vh - 212px);
+  /* 80px header + 40px footer = 120px  */
+}
+
 header{
   width: 100%;
   margin: auto;
