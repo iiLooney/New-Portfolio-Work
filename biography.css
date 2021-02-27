@@ -16,7 +16,13 @@ h3{
     font-weight: normal;
     margin-right: 0;
 }
-
+h1{
+    color: #0783A0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    margin-right: 0;
+}
 .text-col{
     height: auto;
 }
@@ -43,13 +49,6 @@ div .img2{
       
 
     }
-    .img-col img{
-        
-        
-    }
-    div .img2{
-      
-    }
 
 }
 
@@ -64,6 +63,7 @@ div .img2{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-bottom: 2vh;
 
     }
     .img-col img{
