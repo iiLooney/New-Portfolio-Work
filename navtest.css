@@ -190,7 +190,6 @@ header{
   }
   .icon{
     display: block;
-    padding-right: 3rem;
   }
   .icon.hide{
     display: none;
