@@ -18,9 +18,6 @@ html{
   max-width: 100%;
   letter-spacing: 2px;
   padding: 0;
-}
-
-#page-wrap {
   min-height: calc(100vh - 650px);
   /* Keeps Footer at bottom of page?!? */
 }
