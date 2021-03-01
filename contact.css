@@ -4,7 +4,7 @@
     text-align:center;  
     padding-bottom: 2em;
      padding-top: 4em;
-    font-family:georgia, sans-serif;
+    font-family: georgia, sans-serif;
     letter-spacing:2px;
     position:relative;
     display:block;
@@ -13,7 +13,7 @@
   
   .contact-container h1{
     padding-top: 3vh ;
-    font-size:4vw;
+    font-size:3.5vw;
     font-weight:500;
     text-align:center;
     justify-content:center;
@@ -33,7 +33,7 @@
   
   .contact-container h2{
   font-weight:200;
-  font-size:2vw;
+  font-size:1.8vw;
   }
   
   span{
@@ -55,7 +55,7 @@
     .contact-container h1{
       margin: 0;
       padding-top: 4vh;
-      font-size:6vw;
+      font-size:5vw;
       font-weight:500;
       text-align:center;
       justify-content:center;
@@ -64,14 +64,14 @@
     
     .contact-container h2{
     font-weight:200;
-    font-size:4vw;
+    font-size:3vw;
     }
 }
 
 @media (max-width: 600px) {
   .contact-container h1{
     margin: 0;
-    font-size:8vw;
+    font-size:6.5vw;
     font-weight:500;
     text-align:center;
     justify-content:center;
@@ -80,6 +80,6 @@
   
   .contact-container h2{
   font-weight:200;
-  font-size:5.2vw;
+  font-size:3.9vw;
   }
 }
