@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+.body-wrapper{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    flex: 1 1 80%;
+    min-height:100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    height:100%;
+    grid-gap:1vw;
+    padding-bottom: 2.5em;
+  }
+  .title{
+      color: #0783A0;
+      font-size: 2em;
+      margin: 0 0 .25em 0;
+      flex-wrap: nowrap;
+
+  }
+
+  .item {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .item:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(9/16 * 100%);
+  }
+  /* Images for Grids */
+
+  .CD{
+    background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.Ang{
+    background-image:url(images/work/angelo/Angelo-min.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.Muck{
+    background-image:url(images/work/muckie/Muckie.png);
+    background-size:contain;
+    position: relative;
+    transition: transform .3s;
+    
+}
+
+.GH{
+    background-image:url(images/work/ghost-h/Ghost\ Hunt.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+
+.BL{
+    background-image:url(images/work/bad-l/Bad\ Laugh_2.3.2-min.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.BTF{
+    background-image:url();
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.Cork{
+    background-image:url();
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+
+.Swa{
+    background-image:url();
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.Yth{
+    background-image:url(images/work/youth/Youth-min.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.JF{
+    background-image:url(images/work/just-f/JF\ \(5\).png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+}
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+{transform: scale(1.02);}
+
+@media (max-width:550px){
+    .title{
+        text-align: center;}
+
+    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
+      transform: none;
+  }
+
+}
+
+
+.film-title{
+    font-size: 1.7em;
+    color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: ease 0.4s;
+    padding:2em;
+}
+
+.film-title:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+  
+  
+  
