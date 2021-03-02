@@ -87,7 +87,7 @@
     
 }
 .Cork{
-    background-image:url();
+    background-image:url(images/work/cork-simon/CSimon.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -95,7 +95,7 @@
 }
 
 .Swa{
-    background-image:url();
+    background-image:url(images/work/swa/swallow.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
