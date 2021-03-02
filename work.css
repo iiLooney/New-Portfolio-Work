@@ -80,7 +80,7 @@
     
 }
 .BTF{
-    background-image:url();
+    background-image:url(images/work/be-the-fox/BTF.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -134,7 +134,8 @@
 
 .film-title{
     font-size: 1.7em;
-    color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255, 0.1);
+    opacity: 0;
     text-decoration: none;
     transition: ease 0.4s;
     padding:2em;
@@ -142,6 +143,7 @@
 
 .film-title:hover{
     color: rgba(255, 255, 255, 1);
+    opacity: 1;
 }
 
   
