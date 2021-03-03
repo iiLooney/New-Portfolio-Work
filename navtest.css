@@ -254,8 +254,8 @@ header{
   position:absolute;
   top:0;
   left:0;
-  margin-left:0;
-  margin-right:0;
+  margin-left:;
+  margin-right:;
   display:flex;
   flex-direction:column;
   justify-content:center;
