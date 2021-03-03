@@ -219,7 +219,7 @@
 }
 
 .BL{
-  background-image:url(images/work/bad-l/Bad\ Laugh_2.3.2-min.png);
+  background-image:url(images/work/bad-l/BL-1.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -233,14 +233,14 @@
   
 }
 .Yth{
-  background-image:url(images/work/youth/Youth.png);
+  background-image:url(images/work/youth/yth2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .JF{
-  background-image:url(images/work/just-f/JF\ \(5\).png);
+  background-image:url(images/work/just-f/JF-6.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -254,14 +254,14 @@
   
 }
 .Ang{
-  background-image:url(images/work/angelo/Angelo-min.png);
+  background-image:url(images/work/angelo/Ang-2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck{
-  background-image:url(images/work/muckie/Muckie.png);
+  background-image:url(images/work/muckie/m4.png);
   background-size:contain;
   position: relative;
   transition: transform .3s;
@@ -269,15 +269,7 @@
 }
 
 .GH{
-  background-image:url(images/work/ghost-h/Ghost-Hunt.png);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-
-.BL{
-  background-image:url(images/work/bad-l/Bad\ Laugh_2.3.2-min.png);
+  background-image:url(images/work/ghost-h/gh3.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
