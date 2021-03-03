@@ -312,10 +312,12 @@ span{
   text-decoration: none;
   transition: ease 0.4s;
   padding:3em;
+  opacity: 0;
 }
 
 .film-title:hover{
   color: rgba(255, 255, 255, 1);
+  opacity: 1;
 }
 
 
