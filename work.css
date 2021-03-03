@@ -144,7 +144,7 @@
     opacity: 0;
     text-decoration: none;
     transition: ease 0.4s;
-    padding:2em;
+    padding:3em;
 }
 
 .film-title:hover{
