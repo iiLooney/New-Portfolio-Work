@@ -173,21 +173,21 @@ span{
 /* Images for Grids */
 
 .BL1{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+  background-image:url(images/work/bad-l/BL-1.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .BL2{
-  background-image:url(images/work/coh-d/cd_1.125.1-min.png);
+  background-image:url(images/work/bad-l/BL-2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .BL3{
-  background-image:url(images/work/coh-d/cd_1.128.2-min.png);
+  background-image:url(images/work/bad-l/BL-3.png);
   background-size:contain;
   position: relative;
   transition: transform .3s;
@@ -195,7 +195,7 @@ span{
 }
 
 .BL4{
-  background-image:url(images/work/coh-d/cd_1.134.1-min.png);
+  background-image:url(images/work/bad-l/BL-4.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -203,14 +203,14 @@ span{
 }
 
 .BL5{
-  background-image:url(images/work/coh-d/cd_1.30.2-min.png);
+  background-image:url(images/work/bad-l/BL-5.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .BL6{
-  background-image:url(images/work/coh-d/cd_1.55.1-min.png);
+  background-image:url(images/work/bad-l/BL-6.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;

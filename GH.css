@@ -173,21 +173,21 @@ span{
 /* Images for Grids */
 
 .GH1{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+  background-image:url(images/work/ghost-h/gh1.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .GH2{
-  background-image:url(images/work/coh-d/cd_1.125.1-min.png);
+  background-image:url(images/work/ghost-h/gh2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .GH3{
-  background-image:url(images/work/coh-d/cd_1.128.2-min.png);
+  background-image:url(images/work/ghost-h/gh3.png);
   background-size:contain;
   position: relative;
   transition: transform .3s;
@@ -195,7 +195,7 @@ span{
 }
 
 .GH4{
-  background-image:url(images/work/coh-d/cd_1.134.1-min.png);
+  background-image:url(images/work/ghost-h/gh4.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -203,14 +203,14 @@ span{
 }
 
 .GH5{
-  background-image:url(images/work/coh-d/cd_1.30.2-min.png);
+  background-image:url(images/work/ghost-h/gh5.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .GH6{
-  background-image:url(images/work/coh-d/cd_1.55.1-min.png);
+  background-image:url(images/work/ghost-h/gh6.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;

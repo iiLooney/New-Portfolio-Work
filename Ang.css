@@ -174,21 +174,21 @@
   /* Images for Grids */
 
 .CD1{
-    background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+    background-image:url(images/work/angelo/Ang-1.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
     
 }
 .CD2{
-    background-image:url(images/work/coh-d/cd_1.125.1-min.png);
+    background-image:url(images/work/angelo/Ang-2.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
     
 }
 .CD3{
-    background-image:url(images/work/coh-d/cd_1.128.2-min.png);
+    background-image:url(images/work/angelo/Ang-3.png);
     background-size:contain;
     position: relative;
     transition: transform .3s;
@@ -196,7 +196,7 @@
 }
 
 .CD4{
-    background-image:url(images/work/coh-d/cd_1.134.1-min.png);
+    background-image:url(images/work/angelo/Ang-4.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -204,14 +204,14 @@
 }
 
 .CD5{
-    background-image:url(images/work/coh-d/cd_1.30.2-min.png);
+    background-image:url(images/work/angelo/Ang-5.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
     
 }
 .CD6{
-    background-image:url(images/work/coh-d/cd_1.55.1-min.png);
+    background-image:url(images/work/angelo/Ang-6.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;

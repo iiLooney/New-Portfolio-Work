@@ -173,21 +173,21 @@ span{
 /* Images for Grids */
 
 .JF1{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+  background-image:url(images/work/just-f/JF-1.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .JF2{
-  background-image:url(images/work/coh-d/cd_1.125.1-min.png);
+  background-image:url(images/work/just-f/JF-2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .JF3{
-  background-image:url(images/work/coh-d/cd_1.128.2-min.png);
+  background-image:url(images/work/just-f/JF-3.png);
   background-size:contain;
   position: relative;
   transition: transform .3s;
@@ -195,7 +195,7 @@ span{
 }
 
 .JF4{
-  background-image:url(images/work/coh-d/cd_1.134.1-min.png);
+  background-image:url(images/work/just-f/JF-4.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -203,14 +203,14 @@ span{
 }
 
 .JF5{
-  background-image:url(images/work/coh-d/cd_1.30.2-min.png);
+  background-image:url(images/work/just-f/JF-5.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .JF6{
-  background-image:url(images/work/coh-d/cd_1.55.1-min.png);
+  background-image:url(images/work/just-f/JF-6.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;

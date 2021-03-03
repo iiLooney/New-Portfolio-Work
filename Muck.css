@@ -171,21 +171,22 @@ span{
 /* Images for Grids */
 
 .Muck1{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+  background-image:url(images/work/muckie/m1.png);
   background-size:contain;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck2{
-  background-image:url(images/work/coh-d/cd_1.125.1-min.png);
-  background-size:contain;
+  background-image:url(images/work/muckie/m2.png);
+  background-size:cover;
+  width: 100%;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck3{
-  background-image:url(images/work/coh-d/cd_1.128.2-min.png);
+  background-image:url(images/work/muckie/m3.png);
   background-size:contain;
   position: relative;
   transition: transform .3s;
@@ -193,7 +194,7 @@ span{
 }
 
 .Muck4{
-  background-image:url(images/work/coh-d/cd_1.134.1-min.png);
+  background-image:url(images/work/muckie/m4.png);
   background-size:contain;
   position: relative;
   transition: 0.3s;
@@ -201,14 +202,14 @@ span{
 }
 
 .Muck5{
-  background-image:url(images/work/coh-d/cd_1.30.2-min.png);
+  background-image:url(images/work/muckie/m5.png);
   background-size:contain;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck6{
-  background-image:url(images/work/coh-d/cd_1.55.1-min.png);
+  background-image:url(images/work/muckie/m6.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
