@@ -297,6 +297,10 @@
       padding-top: .5em;
       grid-gap: 1.5em;
   }
+  .item .film-title{
+    transition: none;
+    color: white;
+  }
   }
   
   
@@ -306,7 +310,7 @@
     opacity: 0;
     text-decoration: none;
     transition: ease 0.4s;
-    padding:2em;
+    padding:3em;
   }
   
   .film-title:hover{

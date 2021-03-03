@@ -58,9 +58,9 @@
 }
 .Muck{
     background-image:url(images/work/muckie/m4.png);
-    background-size:contain;
+    background-size:cover;
     position: relative;
-    transition: transform .3s;
+    transition:0.3s;
     
 }
 
@@ -129,6 +129,11 @@
       padding-top: .5em;
       grid-gap: 1.5em;
   }
+  .item .film-title{
+    transition: none;
+    color: white;
+    opacity: 1;
+  }
 
   
 }
@@ -139,7 +144,7 @@
     opacity: 0;
     text-decoration: none;
     transition: ease 0.4s;
-    padding:2em;
+    padding:3em;
 }
 
 .film-title:hover{
