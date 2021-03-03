@@ -264,7 +264,7 @@ header{
   color:white;
   font-family: Georgia;
   cursor:pointer;
-  opacity:0;
+  opacity:0.7;
   text-decoration: none;
   box-sizing: content-box;
 }
@@ -287,13 +287,13 @@ header{
   margin-left: 80px;
 }
 }
-@media (max-width: 450px)
+*/
+@media (max-width: 550px)
 {
 .image-overlay{
-  margin-left: 50px;
+  opacity: 1;
 }
 }
-*/
 
 .image-heading{
   font-size: 8px;
