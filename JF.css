@@ -27,6 +27,9 @@
   grid-gap:1vw;
   padding-bottom: 2.5em;
 }
+p{
+  font-size: 1.5em;
+}
 .title{
   color: #0783A0;
   font-size: 1.7em;
@@ -71,6 +74,9 @@
       flex-wrap: nowrap;
       text-align: center;
   
+    }
+    p{
+      font-size: 1.2em;
     }
   
     .page-title{
@@ -138,6 +144,9 @@
       height:100%;
       grid-gap:1vw;
       padding-bottom: 2.5em;
+    }
+    p{
+      font-size: 1em;
     }
 
 }
