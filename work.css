@@ -129,9 +129,9 @@
       padding-top: .5em;
       grid-gap: 1.5em;
   }
+
   
 }
-
 
 .film-title{
     font-size: 1.7em;
@@ -146,6 +146,7 @@
     color: rgba(255, 255, 255, 1);
     opacity: 1;
 }
+
 
   
   
