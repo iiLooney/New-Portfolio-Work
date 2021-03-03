@@ -241,6 +241,7 @@ header{
 .banner-container{
   position: relative;
   max-width:100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -334,6 +335,7 @@ header{
 
 .single-img img{
   width: 100%;
+  height: auto;
   display: block;
 }
 @media only screen and (min-width: 1222px) {
