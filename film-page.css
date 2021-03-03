@@ -234,16 +234,12 @@
     transition: 0.3s;
     
 }
-.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
-{transform: scale(1.02);}
 
 @media (max-width:550px){
     .title{
         text-align: center;}
 
-    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
-      transform: none;
-  }
+
   .grid{
       padding-top: .5em;
       grid-gap: 1.5em;
