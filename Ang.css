@@ -258,17 +258,17 @@
 
 
 .film-title{
-    font-size: 1.7em;
-    color: rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    transition: ease 0.4s;
-    padding:3em;
-    opacity: 0;
+  font-size: 1.7em;
+  color: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: ease 0.4s;
+  padding:2em;
+  opacity: 0;
 }
 
 .film-title:hover{
-    color: rgba(255, 255, 255, 1);
-    opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
 }
 .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
 {transform: scale(1.02);}

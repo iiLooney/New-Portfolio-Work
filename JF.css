@@ -310,7 +310,7 @@ span{
   color: rgba(0, 0, 0, 0.1);
   text-decoration: none;
   transition: ease 0.4s;
-  padding:3em;
+  padding:2em;
 }
 
 .film-title:hover{
