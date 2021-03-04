@@ -171,14 +171,14 @@ span{
 /* Images for Grids */
 
 .Muck1{
-  background-image:url(images/work/muckie/m1.jpg);
+  background-image:url(images/work/muckie/m1.webp);
   background-size:contain;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck2{
-  background-image:url(images/work/muckie/m2.png);
+  background-image:url(images/work/muckie/m2.webp);
   background-size:cover;
   width: 100%;
   position: relative;
@@ -186,7 +186,7 @@ span{
   
 }
 .Muck3{
-  background-image:url(images/work/muckie/m3.jpg);
+  background-image:url(images/work/muckie/m3.webp);
   background-size:cover;
   position: relative;
   transition: transform .3s;
@@ -194,7 +194,7 @@ span{
 }
 
 .Muck4{
-  background-image:url(images/work/muckie/m4.png);
+  background-image:url(images/work/muckie/m4.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -202,14 +202,14 @@ span{
 }
 
 .Muck5{
-  background-image:url(images/work/muckie/m5.jpg);
+  background-image:url(images/work/muckie/m5.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck6{
-  background-image:url(images/work/muckie/m6.jpg);
+  background-image:url(images/work/muckie/m6.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -217,71 +217,71 @@ span{
 }
 
 .BL{
-  background-image:url(images/work/bad-l/BL-1.png);
+  background-image:url(images/work/bad-l/BL-1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
 }
 
 .Swa{
-  background-image:url(images/work/swa/swallow.png);
+  background-image:url(images/work/swa/swallow.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Yth{
-  background-image:url(images/work/youth/yth2.png);
+  background-image:url(images/work/youth/yth2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .JF{
-  background-image:url(images/work/just-f/JF-6.png);
+  background-image:url(images/work/just-f/JF-6.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .CD{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.png);
+  background-image:url(images/work/coh-d/cd_1.47.2-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Ang{
-  background-image:url(images/work/angelo/Ang-2.png);
+  background-image:url(images/work/angelo/Ang-2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck{
-  background-image:url(images/work/muckie/m4.png);
-  background-size:contain;
+  background-image:url(images/work/muckie/m4.webp);
+  background-size:cover;
   position: relative;
-  transition: transform .3s;
+  transition: 0.3s;
   
 }
 
 .GH{
-  background-image:url(images/work/ghost-h/gh3.png);
+  background-image:url(images/work/ghost-h/gh1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .BTF{
-  background-image:url(images/work/be-the-fox/BTF.png);
+  background-image:url(images/work/be-the-fox/BTF.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Cork{
-  background-image:url(images/work/cork-simon/CSimon.png);
+  background-image:url(images/work/cork-simon/CSimon.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
