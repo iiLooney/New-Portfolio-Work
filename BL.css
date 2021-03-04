@@ -180,17 +180,20 @@ span{
   
 }
 .BL2{
-  background-image:url(images/work/bad-l/BL-2.png);
+  background-image:url(images/work/bad-l/BL-2.jpg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .BL3{
-  background-image:url(images/work/bad-l/BL-3.png);
+  background-image:url(images/work/bad-l/BL-3.jpg);
   background-size:contain;
   position: relative;
   transition: transform .3s;
+  top: 0;
+  left: 0;
+  width: 100%;
   
 }
 
@@ -210,7 +213,7 @@ span{
   
 }
 .BL6{
-  background-image:url(images/work/bad-l/BL-6.png);
+  background-image:url(images/work/bad-l/BL-6.jpg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -318,4 +321,11 @@ span{
 }
 
 
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+{transform: scale(1.02);}
 
+@media (max-width:550px){
+    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
+      transform: none;
+  }
+}

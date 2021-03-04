@@ -173,7 +173,7 @@ span{
 /* Images for Grids */
 
 .GH1{
-  background-image:url(images/work/ghost-h/gh1.png);
+  background-image:url(images/work/ghost-h/gh1.jpg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -319,6 +319,14 @@ span{
 .film-title:hover{
   color: rgba(255, 255, 255, 1);
   opacity: 1;
+}
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+{transform: scale(1.02);}
+
+@media (max-width:550px){
+    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
+      transform: none;
+  }
 }
 
 

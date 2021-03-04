@@ -171,7 +171,7 @@ span{
 /* Images for Grids */
 
 .Muck1{
-  background-image:url(images/work/muckie/m1.png);
+  background-image:url(images/work/muckie/m1.jpg);
   background-size:contain;
   position: relative;
   transition: 0.3s;
@@ -186,8 +186,8 @@ span{
   
 }
 .Muck3{
-  background-image:url(images/work/muckie/m3.png);
-  background-size:contain;
+  background-image:url(images/work/muckie/m3.jpg);
+  background-size:cover;
   position: relative;
   transition: transform .3s;
   
@@ -195,21 +195,21 @@ span{
 
 .Muck4{
   background-image:url(images/work/muckie/m4.png);
-  background-size:contain;
+  background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 
 .Muck5{
-  background-image:url(images/work/muckie/m5.png);
-  background-size:contain;
+  background-image:url(images/work/muckie/m5.jpg);
+  background-size:cover;
   position: relative;
   transition: 0.3s;
   
 }
 .Muck6{
-  background-image:url(images/work/muckie/m6.png);
+  background-image:url(images/work/muckie/m6.jpg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -320,5 +320,11 @@ span{
   opacity: 1;
 }
 
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+{transform: scale(1.02);}
 
+@media (max-width:550px){
+    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
+      transform: none;
+  }}
 

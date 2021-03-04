@@ -65,7 +65,7 @@
 }
 
 .GH{
-    background-image:url(images/work/ghost-h/gh1.png);
+    background-image:url(images/work/ghost-h/gh1.jpg);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -102,7 +102,7 @@
     
 }
 .Yth{
-    background-image:url(images/work/youth/yth1.png);
+    background-image:url(images/work/youth/yth2.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -119,12 +119,12 @@
 {transform: scale(1.02);}
 
 @media (max-width:550px){
-    .title{
-        text-align: center;}
-
     .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
       transform: none;
   }
+  .title{
+    text-align: center;}
+    
   .grid{
       padding-top: .5em;
       grid-gap: 1.5em;
