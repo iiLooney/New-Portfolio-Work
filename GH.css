@@ -303,6 +303,7 @@ span{
 .item .film-title{
   transition: none;
   color: white;
+  opacity: 1;
 }
 }
 
