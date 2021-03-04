@@ -133,6 +133,8 @@ header{
 }
 .menu-list li{
   list-style: none;
+  transition: all 0.3s ease
+  
 }
 .menu-list li a{
   color: #0783A0;
@@ -153,8 +155,13 @@ header{
 .menu-list li a:hover{
   color: maroon;
 }
+.menu-list li:hover{
+  transform: scale(1.05);
+}
 .menu-list li a i:hover{
   color: maroon;
+  transform: scale(1.05);
+  
 }
 
 .icon{

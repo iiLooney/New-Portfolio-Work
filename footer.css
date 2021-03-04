@@ -44,8 +44,12 @@ body{
 
 .socials li{
     margin: 0 20px;
+    transition: all 0.3s ease
 }
 
+.socials li:hover{
+    transform: scale(1.05);
+}
 .socials a:hover{
     color: #9E0A23;
 }
