@@ -121,5 +121,13 @@ div .img2{
         display: inline;
         margin-top: -3em;
     }
-
+    h3{
+        margin: 0em;
+        padding: .8em;
+        text-align: center;
+        text-decoration: none;
+        font-weight: normal;
+        margin-right: 0;
+        line-height: 1.2em;
+    }
 }
