@@ -106,6 +106,27 @@
     transition: 0.3s;
     
   }
+  .MYC{
+    background-image:url(images/work/myc/MYC-1.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+  }
+  .LTN{
+    background-image:url(images/work/ltn/ltn_2.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+  }
+  .LiW{
+    background-image:url(images/work/liw/LiW2.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    
+  }
   .Cork{
     background-image:url(images/work/cork-simon/CSimon.webp);
     background-size:cover;
