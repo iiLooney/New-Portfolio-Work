@@ -10,7 +10,7 @@ html{
   box-sizing: border-box;
  }
 
-
+ 
 
  
  
@@ -53,7 +53,7 @@ header{
   background-color: #F2EFF3;
   width: 100%;
   z-index: 2;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   transition: all 0.3s ease;
 }
@@ -140,7 +140,7 @@ header{
 }
 .menu-list li a{
   color: #0783A0;
-  font-size: 2.8vh;
+  font-size: 2.4vh;
   font-weight: 500;
   margin: 0 0 0 3.2rem;
   text-decoration: none;
@@ -149,7 +149,7 @@ header{
 
 .menu-list li a i{
   color: #0783A0;
-  font-size: 3.4vh;
+  font-size: 3vh;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -386,12 +386,5 @@ header{
   .flexgrid img {
     width: 300%;
   }
-}
-.item:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(9/16 * 100%);
 }
 }

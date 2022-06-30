@@ -3,8 +3,8 @@
 }
 .body-wrapper{
     padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 0%;
     flex: 1 1 80%;
     min-height:100%;
@@ -14,8 +14,8 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: 1fr;
     height:100%;
-    grid-gap:1vw;
-    padding-bottom: 2.5em;
+    grid-gap:.5vw;
+    padding-bottom: 1em;
   }
   .title{
       color: #0783A0;
@@ -172,6 +172,6 @@
 }
 
 
-  
+
   
   
