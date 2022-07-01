@@ -191,7 +191,6 @@ header{
   right: 30px;
   top: 20px;
 }
-}
 @media (max-width: 910px) {
   body.disabled{
     overflow: hidden;

@@ -164,9 +164,12 @@
 }
 
 .film-title{
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: rgb(255, 255, 255, 0.1);
     opacity: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     text-decoration: none;
     transition: ease 0.4s;
     padding-top: 2.1em;
@@ -182,7 +185,7 @@
 
 .film-subheading{
   margin-top: 0.1em;
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 

@@ -319,7 +319,8 @@ span{
   color: rgba(255, 255, 255, 1);
   opacity: 1;
 }
-.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .MYC:hover, .LiW:hover,
+.JF:hover, .JF:hover, .JF:hover
 {transform: scale(1.02);}
 
 @media (max-width:550px){
