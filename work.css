@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 .body-wrapper{
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 0%;
     flex: 1 1 80%;
     min-height:100%;
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
     height:100%;
     grid-gap:.5vw;
@@ -47,6 +47,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
   }
   
   .Swa{
@@ -54,6 +55,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .Yth{
@@ -61,6 +63,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .JF{
@@ -68,6 +71,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .CD{
@@ -75,6 +79,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .Ang{
@@ -82,6 +87,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .Muck{
@@ -89,6 +95,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   
@@ -97,6 +104,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .BTF{
@@ -104,6 +112,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .MYC{
@@ -111,6 +120,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .LTN{
@@ -118,6 +128,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .LiW{
@@ -125,6 +136,7 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
   .Cork{
@@ -132,26 +144,20 @@
     background-size:cover;
     position: relative;
     transition: 0.3s;
+    border-radius: 12px;
     
   }
-.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
+.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover, .MYC:hover,
+.LTN:hover, .LiW:hover
 {transform: scale(1.02);}
 
-@media (max-width:650px){
-    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
-      transform: none;
-  }
+@media (max-width:910px){
   .title{
     text-align: center;}
     
   .grid{
       padding-top: .5em;
       grid-gap: 1.5em;
-  }
-  .item .film-title{
-    transition: none;
-    color: white;
-    opacity: 1;
   }
 
   
@@ -169,6 +175,9 @@
 .film-title:hover{
     color: rgba(255, 255, 255, 1);
     opacity: 1;
+}
+.item:hover{
+  opacity: .7;
 }
 
 .film-subheading{
