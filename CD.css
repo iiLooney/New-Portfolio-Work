@@ -25,22 +25,24 @@
     grid-template-rows: 1fr;
     height:100%;
     grid-gap:1vw;
-    padding-bottom: 2.5em;
   }
   p{
     font-size: 1.5em;
   }
   .title{
-    color: #0783A0;
-    font-size: 1.7em;
+    color: white;
+    font-size: 1.8em;
     margin: 0 0 .8em 0;
     flex-wrap: nowrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
   }
 
   .page-title{
-    color: black;
+    color: white;
     font-size: 2.5em;
     margin: 0 0 .25em 0;
     flex-wrap: nowrap;
@@ -49,14 +51,14 @@
   }
 
   .subtitle{
-    color: black;
+    color: white;
     font-size: 1.5em;
-    margin: 0 0 .25em 0;
+    margin: 0 0 2em 0;
     flex-wrap: nowrap;
     text-align: center;
   }
   .subtitle2{
-    color: black;
+    color: white;
     font-size: 1.5em;
     margin: 0 0 .25em 0;
     flex-wrap: nowrap;
@@ -66,7 +68,6 @@
 
   @media (max-width:1000px){
     .title{
-        color: #0783A0;
         font-size: 1.5em;
         margin: 0 0 .8em 0;
         flex-wrap: nowrap;
@@ -75,7 +76,6 @@
       }
     
       .page-title{
-        color: black;
         font-size: 2.2em;
         margin: 0 0 .25em 0;
         flex-wrap: nowrap;
@@ -84,9 +84,8 @@
       }
     
       .subtitle{
-        color: black;
         font-size: 1.2em;
-        margin: 0 0 .25em 0;
+        margin: 0 0 2em 0;
         flex-wrap: nowrap;
         text-align: center;
       }
@@ -104,7 +103,6 @@
   }
   @media (max-width:550px){
     .title{
-        color: #0783A0;
         font-size: 1.5em;
         margin: 0 0 1em 0;
         flex-wrap: nowrap;
@@ -116,7 +114,6 @@
       }
     
       .page-title{
-        color: black;
         font-size: 2em;
         margin: 0 0 .25em 0;
         flex-wrap: nowrap;
@@ -125,9 +122,8 @@
       }
     
       .subtitle{
-        color: black;
         font-size: 1em;
-        margin: 0 0 .25em 0;
+        margin: 0 0 2em 0;
         flex-wrap: nowrap;
         text-align: center;
       }
@@ -137,6 +133,7 @@
         margin: 0 0 .25em 0;
         flex-wrap: nowrap;
         text-align: center;
+        padding-bottom: 1em;
       }
       .grid {
         display: grid;
@@ -150,14 +147,13 @@
   }
 
   span{
-      color: #0783A0;
+      color: white;
   }
 
   .item {
     display: flex;
     justify-content:center;
     align-items:center;
-    background: lightgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
   }
@@ -168,165 +164,70 @@
     width: 0;
     padding-bottom: calc(9/16 * 100%);
   }
+  
+
+ .title{
+        text-align: center;}
+
+
+.film-title{
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  transition: ease 0.4s;
+  padding:2em;
+  opacity: 1;
+}
+
+.film-title:hover{
+  color: rgb(156, 156, 156);
+  transform: scale(1.05);
+}
+  
   /* Images for Grids */
 
 .CD1{
-    background-image:url(images/work/coh-d/cd_1.47.2-min.webp);
-    background-size:cover;
-    position: relative;
-    transition: 0.3s;
-    
-}
-.CD2{
-    background-image:url(images/work/coh-d/cd_1.125.1-min.webp);
-    background-size:cover;
-    position: relative;
-    transition: 0.3s;
-    
-}
-.CD3{
-    background-image:url(images/work/coh-d/cd_1.128.2-min.webp);
-    background-size:contain;
-    position: relative;
-    transition: transform .3s;
-    
-}
-
-.CD4{
-    background-image:url(images/work/coh-d/cd_1.134.1-min.webp);
-    background-size:cover;
-    position: relative;
-    transition: 0.3s;
-    
-}
-
-.CD5{
-    background-image:url(images/work/coh-d/cd_1.30.2-min.webp);
-    background-size:cover;
-    position: relative;
-    transition: 0.3s;
-    
-}
-.CD6{
-    background-image:url(images/work/coh-d/cd_1.55.1-min.webp);
-    background-size:cover;
-    position: relative;
-    transition: 0.3s;
-    
-}
-
-.BL{
-  background-image:url(images/work/bad-l/BL-1.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-}
-
-.Swa{
-  background-image:url(images/work/swa/swa-6.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.Yth{
-  background-image:url(images/work/youth/yth2.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.JF{
-  background-image:url(images/work/just-f/JF-6.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.CD{
   background-image:url(images/work/coh-d/cd_1.47.2-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
-  
+  margin-top: 1em;
 }
-.Ang{
-  background-image:url(images/work/angelo/Ang-2.webp);
+.CD2{
+  background-image:url(images/work/coh-d/cd_1.125.1-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
-  
+  margin-top: 1em;
 }
-.Muck{
-  background-image:url(images/work/muckie/m4.webp);
+.CD3{
+  background-image:url(images/work/coh-d/cd_1.128.2-min.webp);
+  background-size:contain;
+  position: relative;
+  transition: .3s;
+  margin-top: 1em;
+}
+
+.CD4{
+  background-image:url(images/work/coh-d/cd_1.134.1-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
-  
+  margin-top: 1em;
 }
 
-.GH{
-  background-image:url(images/work/ghost-h/gh1.webp);
+.CD5{
+  background-image:url(images/work/coh-d/cd_1.30.2-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
-  
+  margin-top: 1em; 
 }
-.BTF{
-  background-image:url(images/work/be-the-fox/BTF.webp);
+.CD6{
+  background-image:url(images/work/coh-d/cd_1.55.1-min.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
+  margin-top: 1em;
   
 }
-.Cork{
-  background-image:url(images/work/cork-simon/CSimon.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-
-
-@media (max-width:550px){
-    .title{
-        text-align: center;}
-
-
-  .grid{
-      padding-top: .5em;
-      grid-gap: 1.5em;
-  }
-  .item .film-title{
-    transition: none;
-    color: white;
-    opacity: 1;
-  }
-}
-
-
-.film-title{
-  font-size: 1.7em;
-  color: rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  transition: ease 0.4s;
-  padding:2em;
-  opacity: 0;
-}
-
-.film-title:hover{
-  color: rgba(255, 255, 255, 1);
-  opacity: 1;
-}
-
-.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
-{transform: scale(1.02);}
-
-@media (max-width:550px){
-    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
-      transform: none;
-  }
-}
-  
-  
   

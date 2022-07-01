@@ -1,6 +1,6 @@
 .contact-container{
     width:100%;
-    background-color: #F2EFF3;
+    background-color: black;
     text-align:center;  
     padding-bottom: 2em;
      padding-top: 4em;
@@ -20,11 +20,13 @@
     line-height:5vh;
     color: #0783A0;
   }
-
+h2{
+  color: white;
+}
   h2 a{
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: white;
   }
 
   h2 a:hover{
