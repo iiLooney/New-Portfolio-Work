@@ -34,10 +34,11 @@ header{
     width: 1rem;
 }
 ::-webkit-scrollbar-track {
-    background: #E1E0E2;
+    background: black;
 }
 ::-webkit-scrollbar-thumb {
-    background: #E1E0E2;
+    background:#333;
+    border-radius: 7px;
 }
 ::selection{
   background: rgb(0,123,255,0.3);
