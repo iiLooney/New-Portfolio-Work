@@ -2,160 +2,173 @@
   box-sizing: border-box;
 }
 .wrapper{
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 0%;
-  flex: 1 1 80%;
-  min-height:100%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 0%;
+flex: 1 1 80%;
+min-height:100%;
 }
 
 .body-wrapper{
-      padding-top:3%;
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-bottom: 0%;
-      flex: 1 1 80%;
-      min-height:100%;
-  }
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    flex: 1 1 80%;
+    min-height:100%;
+}
 
-  
+
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  grid-template-rows: 1fr;
-  height:100%;
-  grid-gap:1vw;
-  padding-bottom: 2.5em;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+grid-template-rows: 1fr;
+height:100%;
+grid-gap:1vw;
 }
 p{
-  font-size: 1.5em;
+font-size: 1.5em;
 }
 .title{
-  color: #0783A0;
-  font-size: 1.7em;
-  margin: 0 0 .8em 0;
-  flex-wrap: nowrap;
-  text-align: center;
+color: white;
+font-size: 1.8em;
+margin: 0 0 .8em 0;
+flex-wrap: nowrap;
+text-align: center;
+justify-content: center;
+align-items: center;
+text-decoration: none;
 
 }
 
 .page-title{
-  color: black;
-  font-size: 2.5em;
-  margin: 0 0 .25em 0;
-  flex-wrap: nowrap;
-  text-align: center;
+color: white;
+font-size: 2.5em;
+margin: 1em 0 .25em 0;
+flex-wrap: nowrap;
+text-align: center;
 
 }
 
 .subtitle{
-  color: black;
-  font-size: 1.5em;
-  margin: 0 0 .5em 0;
-  flex-wrap: nowrap;
-  text-align: center;
-  padding-bottom: 2%;
+color: white;
+font-size: 1.5em;
+margin: 0 0 2em 0;
+flex-wrap: nowrap;
+text-align: center;
 }
 .subtitle2{
-  color: black;
-  font-size: 1.5em;
-  margin: 0 0 .25em 0;
-  flex-wrap: nowrap;
-  text-align: center;
-  padding-bottom: 2%;
-  padding-top: 3%;
+color: white;
+font-size: 1.5em;
+margin: 0 0 .25em 0;
+flex-wrap: nowrap;
+text-align: center;
+padding-bottom: 2%;
 }
 
 @media (max-width:1000px){
-  .title{
-      color: #0783A0;
-      font-size: 1.5em;
-      margin: 0 0 .8em 0;
-      flex-wrap: nowrap;
-      text-align: center;
+.title{
+    font-size: 1.5em;
+    margin: 0 0 .8em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .page-title{
+    font-size: 2.2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .subtitle{
+    font-size: 1.2em;
+    margin: 0 0 2em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  .subtitle2{
   
-    }
-    p{
-      font-size: 1.2em;
-    }
-  
-    .page-title{
-      color: black;
-      font-size: 2.2em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-  
-    }
-  
-    .subtitle{
-      color: black;
-      font-size: 1.2em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-    }
-    .subtitle2{
-    
-      font-size: 1.2em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-    }
+    font-size: 1.2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
 
 }
 @media (max-width:550px){
-  .title{
-      color: #0783A0;
-      font-size: 1.5em;
-      margin: 0 0 1em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-  
-    }
-    p{
-      font-size: 1em;
-    }
-  
-    .page-title{
-      color: black;
-      font-size: 2em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-  
-    }
-  
-    .subtitle{
-      color: black;
-      font-size: 1em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-    }
-    .subtitle2{
+.title{
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    flex-wrap: nowrap;
+    text-align: center;
 
-      font-size: 1em;
-      margin: 0 0 .25em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      grid-template-rows: 1fr;
-      height:100%;
-      grid-gap:1vw;
-      padding-bottom: 2.5em;
-    }
+  }
+  p{
+    font-size: 1em;
+  }
+
+  .page-title{
+    font-size: 2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .subtitle{
+    font-size: 1em;
+    margin: 0 0 2em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .subtitle2{
+
+    font-size: 1em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    height:100%;
+    grid-gap:1vw;
+    padding-bottom: 2.5em;
+  }
 
 }
-
 span{
-    color: #0783A0;
+color: white;
 }
 
 .item {
+display: flex;
+justify-content:center;
+align-items:center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.item:before {
+content: "";
+display: block;
+height: 0;
+width: 0;
+padding-bottom: calc(9/16 * 100%);
+}
+
+
+.title{
+  text-align: center;}
+
+.itemsquare {
   display: flex;
   justify-content:center;
   align-items:center;
@@ -163,134 +176,14 @@ span{
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.item:before {
+.itemsquare:before {
   content: "";
   display: block;
   height: 0;
   width: 0;
-  padding-bottom: calc(9/16 * 100%);
-}
-/* Images for Grids */
-
-.BL1{
-  background-image:url(images/work/bad-l/BL-1.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.BL2{
-  background-image:url(images/work/bad-l/BL-2.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.BL3{
-  background-image:url(images/work/bad-l/BL-3.webp);
-  background-size:contain;
-  position: relative;
-  transition: transform .3s;
-  top: 0;
-  left: 0;
-  width: 100%;
-  
+  padding-bottom: calc(3/4 * 100%);
 }
 
-.BL4{
-  background-image:url(images/work/bad-l/BL-4.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-
-.BL5{
-  background-image:url(images/work/bad-l/BL-5.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.BL6{
-  background-image:url(images/work/bad-l/BL-6.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-
-.BL{
-  background-image:url(images/work/bad-l/BL-1.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-}
-
-.Swa{
-  background-image:url(images/work/swa/swallow.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.Yth{
-  background-image:url(images/work/youth/yth2.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.JF{
-  background-image:url(images/work/just-f/JF-6.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.CD{
-  background-image:url(images/work/coh-d/cd_1.47.2-min.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.Ang{
-  background-image:url(images/work/angelo/Ang-2.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.Muck{
-  background-image:url(images/work/muckie/m4.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-
-.GH{
-  background-image:url(images/work/ghost-h/gh1.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.BTF{
-  background-image:url(images/work/be-the-fox/BTF.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
-.Cork{
-  background-image:url(images/work/cork-simon/CSimon.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  
-}
 
 @media (max-width:550px){
   .title{
@@ -310,25 +203,143 @@ span{
 
 
 .film-title{
-  font-size: 1.7em;
-  color: rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  transition: ease 0.4s;
-  padding:2em;
-  opacity: 0;
+color: rgba(255, 255, 255);
+text-decoration: none;
+transition: ease 0.4s;
+padding:2em;
+opacity: 1;
 }
 
 .film-title:hover{
-  color: rgba(255, 255, 255, 1);
-  opacity: 1;
+color: rgb(156, 156, 156);
+transform: scale(1.05);
 }
-
 
 .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover
 {transform: scale(1.02);}
 
 @media (max-width:550px){
-    .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
-      transform: none;
-  }
+  .CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover{
+    transform: none;
 }
+}
+
+/* Images for Grids */
+
+.BL1{
+background-image:url(images/work/liw/LiW1.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+margin-top: 1em;
+}
+.BL2{
+background-image:url(images/work/liw/LiW2.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+margin-top: 1em;
+}
+.BL3{
+background-image:url(images/work/liw/LiW3.webp);
+background-size:contain;
+position: relative;
+transition: .3s;
+margin-top: 1em;
+}
+
+.BL4{
+background-image:url(images/work/liw/LiW5.1.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+margin-top: 1em;
+}
+
+.BL5{
+background-image:url(images/work/liw/LiW5.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+margin-top: 1em;
+}
+.BL6{
+background-image:url(images/work/liw/LiW6.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+margin-top: 1em;
+}
+
+/*.BL{
+background-image:url(images/work/bad-l/BL-1.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+}
+
+.Swa{
+background-image:url(images/work/swa/swa-6.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.Yth{
+background-image:url(images/work/youth/yth2.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.JF{
+background-image:url(images/work/just-f/JF-6.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.CD{
+background-image:url(images/work/coh-d/cd_1.47.2-min.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.Ang{
+background-image:url(images/work/angelo/Ang-2.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.Muck{
+background-image:url(images/work/muckie/m4.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+
+.GH{
+background-image:url(images/work/ghost-h/gh1.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.BTF{
+background-image:url(images/work/be-the-fox/BTF.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}
+.Cork{
+background-image:url(images/work/cork-simon/CSimon.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}*/
+

@@ -29,8 +29,7 @@ h2{
     color: white;
   }
 
-  h2 a:hover{
-    color:maroon;
+ h2 a.email:hover{
   }
   
   .contact-container h2{
