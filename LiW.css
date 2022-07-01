@@ -242,7 +242,7 @@ padding-bottom: calc(9/16 * 100%);
 }
 .LiW3{
   background-image:url(images/work/liw/LiW3.webp);
-  background-size:contain;
+  background-size:cover;
   position: relative;
   transition: .3s;
   margin-top: 1em;
