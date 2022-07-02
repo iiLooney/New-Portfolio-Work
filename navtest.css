@@ -233,7 +233,7 @@ header{
     display: block;
     padding: 40px 0;
     text-align: center;
-    background:black;
+    background:rgba(0, 0, 0, 0.801);
     transition: all 0.3s ease;
     opacity: 0.95;
   }
@@ -265,7 +265,6 @@ header{
   margin-top: 0; 
   padding: 0;
   padding-bottom: 2.5vh;
-  background-color: black;
 }
 
 .banner-container{
