@@ -9,19 +9,8 @@ html{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
 }  
-/* Style the video: 100% width and height to cover the entire window 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-<video autoplay muted loop id="myVideo">
-      <source src="images/home/vlc (1).png" type="img">
-    </video>*/
-
 
 * {
   box-sizing: border-box;
@@ -74,11 +63,9 @@ header{
   background-color:;
   width: 100%;
   z-index: 2;
-  padding-top: 14rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   transition: all 0.3s ease;
-  display: flex;
-  justify-content: center;
 }
 
 .brand{
