@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <meta name="description" />
+  <meta name="keywords" content="film Cinematography colorist camera dylan looney" />
+  <meta name="url" content="https://dylanlooney.com" />
+  <link rel="canonical" href="https://dylanlooney.com" />
+  <meta property="og:title" content="Dylan Looney" />
+  <meta property="og:description" />
+  <meta property="og:url" content="https://dylanlooney.com" />
+  <meta property="og:site_name" content="Dylan Looney" />
+  <meta property="og:type" content="website" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/home/dyl-favicon.png" type="img/png" sizes="16x16">
+  <script src="https://kit.fontawesome.com/1bab87b9fd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="navtest.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <link rel="stylesheet" type="text/css" href="LLL.css">
+  <title>Just Friends | Colourist | Dylan Looney</title>
+  <meta name="description" content="Dylan Looney | Just Friends | Freelance Colourist">
+
+</head>
+<body>
+<header>
+  <div id="page-wrap">
+    <nav class="navbar">
+        <div class="content">
+          <div class="brand"><a href="work.html" class="brand-brand-text" title="dylan looney home page">
+           <span class="brand-title"><img src="images/home/DL WEBSITE LOGOcol.png"alt="Home"></a></span>
+               <span class="brand-subtitle"></span></a></div>
+          <div class="logo">
+           <a href="nav.html"><img src="images/home/Image-Logo2.webp"alt="Home"></a>
+         </div>
+         <ul class="menu-list">
+           <div class="icon cancel-btn">
+             <i class="fas fa-times"></i>
+           </div>
+           <li><a href="work.html" class="green" title="portfolio of my work">work</a></li>
+           <li><a href="Nav-Reel.html" class="white" title="my showreel">reel</a></li>
+           <li><a href="Contact.html" class="orange"title="contact details page with email phone number">about/contact</a></li>
+           <li><a id="ig-nav" href="https://www.instagram.com/dyl__Colour/" title="follow my instagram portfolio page at dylan looney film" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+         </ul>
+           <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+
+    </header>
+    <body>
+            <div class="page-title">Live and Let Live</div>
+            <div class="subtitle"><span>Dir.</span> Jaka Prosenik --- <span>Shot by</span> Maiya Rice<br><span>Colour by</span> Dylan Looney</div>
+            <div class="body-wrapper">
+                <div style="padding:56.25% 0 0 0;position:relative;margin: 0 5%;"><iframe src="https://www.youtube.com/embed/ym5RqZrHm1Q" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> </div>
+        <div class="wrapper">
+                <div class="item LLL1"></div>
+                <div class="item LLL3"></div>
+                <div class="item LLL4"></div>
+                <div class="item LLL5"></div>
+                <div class="item LLL6"></div>
+                <div class="item LLL7"></div>
+                <div class="item LLL8"></div>
+                <div class="item LLL9"></div>
+                <div class="item LLL10"></div>
+                <div class="item LLL11"></div>
+                <div class="item LLL12"></div>
+                <div class="item LLL13"></div>
+                <div class="item LLL14"></div>
+                <div class="item LLL15"></div>
+            </div>
+            <p></p>
+            <div class="title"><a href="work.html" class="film-title">Explore more...</a></div>
+            </div>
+          </div>
+          <footer class="footer-container">
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/dyl__Colour/" class="green" target="_blank" title="View my Instagram page"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/dylanlooney/" target="_blank" title="View my LinkedIn page"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://vimeo.com/dylanlooney" class="orange" target="_blank" title="View my Vimeo page for more films and content" ><i class="fab fa-vimeo-v"></i></a></li>
+            </ul>
+            <p class="rights">&copy; 2021 Dylan Looney All Rights Reserved</p>
+          </footer>
+    </body>
+</div>
+</html>
