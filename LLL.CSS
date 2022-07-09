@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  
+  padding-bottom: 2em;
   }
   
   .page-title{
@@ -251,21 +251,21 @@
   /* Images for Grids */
   
   .LLL1{
-  background-image:url(images/work/lll/stills/png/LLL1.png);
+  background-image:url(images/work/lll/stills/png/CROPPED/LLL1.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
-  margin-top: 1em;  margin-bottom: -10vh;
+  margin-top: 5em;  margin-bottom: -8vh;
   }
   .LLL2{
-  background-image:url(images/work/lll/stills/png/LLL2.png);
+  background-image:url(images/work/lll/stills/png/CROPPED/LLL2.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;  margin-bottom: -10vh;
   }
   .LLL3{
-  background-image:url(images/work/lll/stills/png/LLL3.png);
+  background-image:url(images/work/lll/stills/png/CROPPED/LLL3.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
@@ -273,7 +273,7 @@
   }
   
   .LLL4{
-    background-image:url(images/work/lll/stills/png/LLL4.png);
+    background-image:url(images/work/lll/stills/png/CROPPED/LLL4.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -281,14 +281,14 @@
   }
   
   .LLL5{
-    background-image:url(images/work/lll/stills/png/LLL5.png);
+    background-image:url(images/work/lll/stills/png/CROPPED/LLL5.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;  margin-bottom: -10vh;
   }
   .LLL6{
-    background-image:url(images/work/lll/stills/png/LLL6.png);
+    background-image:url(images/work/lll/stills/png/CROPPED/LLL6.png);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -296,7 +296,7 @@
   margin-bottom: -10vh;  margin-bottom: -10vh;
   }
   .LLL7{
-    background-image:url(images/work/lll/stills/png/LLL7.png);
+    background-image:url(images/work/lll/stills/png/CROPPED/LLL7.png);
     background-size:contain;  position: relative;
         background-repeat: no-repeat;
     transition: 0.3s;
@@ -304,21 +304,21 @@
     margin-bottom: -10vh;  margin-bottom: -10vh;
     }
     .LLL8{
-      background-image:url(images/work/lll/stills/png/LLL8.png);
+      background-image:url(images/work/lll/stills/png/CROPPED/LLL8.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: 0.3s;
         margin-top: 1em;  margin-bottom: -10vh;
         }
         .LLL9{
-          background-image:url(images/work/lll/stills/png/LLL9.png);
+          background-image:url(images/work/lll/stills/png/cropped/LLL9.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: 0.3s;
         margin-top: 1em;  margin-bottom: -10vh;
         }
         .LLL10{
-          background-image:url(images/work/lll/stills/png/LLL10.png);
+          background-image:url(images/work/lll/stills/png/cropped/LLL10.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: .3s;
@@ -326,7 +326,7 @@
         }
         
         .LLL11{
-          background-image:url(images/work/lll/stills/png/LLl11.png);
+          background-image:url(images/work/lll/stills/png/cropped/LLL11.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: 0.3s;
@@ -334,28 +334,28 @@
         }
         
         .LLL12{
-          background-image:url(images/work/lll/stills/png/LLL12.png);
+          background-image:url(images/work/lll/stills/png/CROPPED/LLL12.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: 0.3s;
         margin-top: 1em;  margin-bottom: -10vh;
         }
         .LLL13{
-          background-image:url(images/work/lll/stills/png/LLL13.png);
+          background-image:url(images/work/lll/stills/png/CROPPED/LLL13.png);
         background-size:contain;  position: relative;
         background-repeat: no-repeat;
         transition: 0.3s;
         margin-top: 1em;  margin-bottom: -10vh;
         }
         .LLL14{
-          background-image:url(images/work/lll/stills/png/LLL14.png);
+          background-image:url(images/work/lll/stills/png/CROPPED/LLL14.png);
           background-size:contain;  position: relative;
         background-repeat: no-repeat;
           transition: 0.3s;
           margin-top: 1em;  margin-bottom: -10vh;
           }
           .LLL15{
-            background-image:url(images/work/lll/stills/png/LLL15.png);
+            background-image:url(images/work/lll/stills/png/CROPPED/LLL15.png);
             background-size:contain;  position: relative;
         background-repeat: no-repeat;
             transition: 0.3s;

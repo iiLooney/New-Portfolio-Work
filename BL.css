@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  
+  padding: 2em 0;
   }
   
   .page-title{
@@ -250,21 +250,21 @@
 /* Images for Grids */
 
 .BL1{
-background-image:url(images/work/bad-l/BL-1.webp);
+background-image:url(images/work/bad-l/original/bl0.png);
 background-size:cover;
 position: relative;
 transition: 0.3s;
 margin-top: 1em;
 }
 .BL2{
-background-image:url(images/work/bad-l/BL-2.webp);
-background-size:cover;
-position: relative;
+background-image:url(images/work/bad-l/original/bl1.png);
+background-size:contain;  position: relative;
+        background-repeat: no-repeat;
 transition: 0.3s;
 margin-top: 1em;
 }
 .BL3{
-background-image:url(images/work/bad-l/BL-3.webp);
+background-image:url(images/work/bad-l/original/bl2.png);
 background-size:contain;
 position: relative;
 transition: .3s;
@@ -272,7 +272,7 @@ margin-top: 1em;
 }
 
 .BL4{
-background-image:url(images/work/bad-l/BL-4.webp);
+background-image:url(images/work/bad-l/original/bl3.png);
 background-size:cover;
 position: relative;
 transition: 0.3s;
@@ -280,19 +280,63 @@ margin-top: 1em;
 }
 
 .BL5{
-background-image:url(images/work/bad-l/BL-5.webp);
+background-image:url(images/work/bad-l/original/bl4.png);
 background-size:cover;
 position: relative;
 transition: 0.3s;
 margin-top: 1em;
 }
 .BL6{
-background-image:url(images/work/bad-l/BL-6.webp);
+background-image:url(images/work/bad-l/original/bl6.png);
 background-size:cover;
 position: relative;
 transition: 0.3s;
 margin-top: 1em;
 }
+.BL7{
+  background-image:url(images/work/bad-l/original/bl7.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+  }
+  .BL8{
+  background-image:url(images/work/bad-l/original/bl8.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+  }
+  .BL9{
+  background-image:url(images/work/bad-l/original/b;9.png);
+  background-size:contain;
+  position: relative;
+  transition: .3s;
+  margin-top: 1em;
+  }
+  
+  .BL10{
+  background-image:url(images/work/bad-l/original/bl10.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+  }
+  
+  .BL11{
+  background-image:url(images/work/bad-l/original/bl12.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+  }
+  .BL12{
+  background-image:url(images/work/bad-l/original/bl13.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+  }
 
 /*.BL{
 background-image:url(images/work/bad-l/BL-1.webp);
