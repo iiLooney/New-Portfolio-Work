@@ -249,6 +249,11 @@ header{
     margin-left: 0px;
   }
 }
+@media (max-width: 580px) {
+  .content{
+    margin: 0 1em;
+  }
+}
 @media (max-width: 380px) {
   .navbar .logo a{
     font-size: 27px;
