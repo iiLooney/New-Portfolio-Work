@@ -254,6 +254,9 @@ header{
     padding: 0 1em;
     width: 100%;
   }
+  .navbar{
+    padding: 0em 1em 0em 0em;
+  }
 }
 @media (max-width: 380px) {
   .navbar .logo a{
@@ -340,6 +343,9 @@ header{
 }
 @media (max-width: 550px)
 {
+.brand-title img{
+  width: 8.5em;
+}
 .image-overlay{
   opacity: 1;
 }
