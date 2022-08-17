@@ -86,7 +86,7 @@ h2{
       margin: 0;
       font-size:2vw;
       font-weight:500;
-      line-height:5vh;
+      line-height:4vh;
       letter-spacing: 0;
     }
     
@@ -96,10 +96,29 @@ h2{
     letter-spacing: 0;
     }
     .text{
-      padding-left: 4em;
-      padding-right: 4em;
+      padding-left: 2em;
+      padding-right: 2em;
     }
 
+}
+@media (max-width: 450px) {
+  .contact-container h1{
+    margin: 0;
+    font-size:2.7vw;
+    font-weight:500;
+    line-height:4vh;
+    letter-spacing: 0;
+  }
+  
+  .contact-container h2{
+  font-weight:200;
+  font-size:2.7vw;
+  letter-spacing: 0;
+  }
+  .text{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 
 .bio-container{
@@ -126,8 +145,8 @@ h3{
   font-weight: 200;
   margin-right: 0;
   padding-top: 4em;
-  padding-right: 10em;
-  padding-left: 10em;
+  padding-right: 5em;
+  padding-left: 5em;
   padding-bottom: 0;
 }
 .text-col{
@@ -135,8 +154,15 @@ h3{
 }
 @media (max-width: 650px) {
   .text{
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+}
+@media (max-width: 450px) {
+  .text{
+    padding-left: 2em;
+    padding-right: 2em;
   }
 
 }
