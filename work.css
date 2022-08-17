@@ -4,6 +4,8 @@
 .body-wrapper{
     padding-top: 2%;
     padding-bottom: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
     flex: 1 1 80%;
     min-height:100%;
 }
@@ -12,7 +14,7 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
     height:100%;
-    grid-gap:.5vw;
+    grid-gap:1vw;
     padding-bottom: 1em;
   }
   .title{
