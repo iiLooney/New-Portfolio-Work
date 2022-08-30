@@ -149,7 +149,15 @@
     border-radius: 12px;
     
   }
-.CD:hover, .Ang:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover, .MYC:hover,
+  .JACKO{
+    background-image:url(images/work/jacko/jacko1.png);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+.CD:hover, .Ang:hover, .JACKO:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover, .MYC:hover,
 .LTN:hover, .LiW:hover, .LLL:hover
 {transform: scale(1.02);}
 
@@ -167,7 +175,7 @@
    margin-right: 0%;
     margin-left: 0%;
 }
-.BL, .Ang, .Muck, .GH, .CD, .BTF, .Cork, .Yth, .Swa, .JF, .MYC, .LTN, .LiW, .LLL{
+.BL, .Ang, .Muck, .GH, .CD, .BTF, .Cork, .Yth, .Swa, .JF, .MYC, .LTN, .LiW, .LLL, .JACKO{
   border-radius: 24px;
 }
   }
