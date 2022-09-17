@@ -4,7 +4,7 @@ html{
 
 /* background image*/
 html{
-  background-image: url("images/home/vlc.webp");
+  background-image: url("images/home/vlc.1.webp");
   background-blend-mode:soft-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,7 +12,7 @@ html{
   
 }  
 body{
-  background-image: url("images/home/vlc.webp");
+  background-image: url("images/home/vlc.1.webp");
   background-blend-mode:soft-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
