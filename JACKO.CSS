@@ -249,21 +249,21 @@
   /* Images for Grids */
 
 .JACKO1{
-  background-image:url(images/work/jacko/jacko1.png);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1em;
-}
-.JACKO2{
   background-image:url(images/work/jacko/jacko1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;
 }
+.JACKO2{
+  background-image:url(images/work/jacko/jacko2.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1em;
+}
 .JACKO3{
-  background-image:url(images/work/jacko/jacko3.png);
+  background-image:url(images/work/jacko/jacko3.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
@@ -271,7 +271,7 @@
 }
 
 .JACKO4{
-  background-image:url(images/work/jacko/jacko4.png);
+  background-image:url(images/work/jacko/jacko4.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -279,14 +279,14 @@
 }
 
 .JACKO5{
-  background-image:url(images/work/jacko/jacko5.png);
+  background-image:url(images/work/jacko/jacko5.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em; 
 }
 .JACKO6{
-  background-image:url(images/work/jacko/jacko5.webp);
+  background-image:url(images/work/jacko/jacko6.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -294,7 +294,7 @@
   
 }
 .JACKO7{
-    background-image:url(images/work/jacko/jacko5.1.webp);
+    background-image:url(images/work/jacko/jacko7.webp);
     background-size:contain;  position: relative;
     background-repeat: no-repeat;
     transition: 0.3s;
@@ -302,7 +302,7 @@
   
 }
 .JACKO8{
-  background-image:url(images/work/jacko/jacko5.2.webp);
+  background-image:url(images/work/jacko/jacko8.webp);
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -310,14 +310,14 @@
   
 }
 .JACKO9{
-  background-image:url(images/work/jacko/jacko9.png);
+  background-image:url(images/work/jacko/jacko9.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;
 }
 .JACKO10{
-    background-image:url(images/work/jacko/jacko10.png);
+    background-image:url(images/work/jacko/jacko10.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
