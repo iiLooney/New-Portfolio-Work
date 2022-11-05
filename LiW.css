@@ -251,21 +251,21 @@
   /* Images for Grids */
 
 .LiW1{
-  background-image:url(images/work/liw/LiW1.webp);
+  background-image:url(images/work/liw/LiW_1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
 .LiW2{
-  background-image:url(images/work/liw/LiW2.webp);
+  background-image:url(images/work/liw/LiW_2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
 .LiW3{
-  background-image:url(images/work/liw/LiW3.webp);
+  background-image:url(images/work/liw/LiW_3.webp);
   background-size:cover;
   position: relative;
   transition: .3s;
@@ -273,7 +273,7 @@
 }
 
 .LiW4{
-  background-image:url(images/work/liw/LiW5.1.webp);
+  background-image:url(images/work/liw/LiW_3.1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -281,14 +281,65 @@
 }
 
 .LiW5{
-  background-image:url(images/work/liw/LiW5.webp);
+  background-image:url(images/work/liw/LiW_4.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
 .LiW6{
-  background-image:url(images/work/liw/LiW6.webp);
+  background-image:url(images/work/liw/LiW_5.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW7{
+  background-image:url(images/work/liw/LiW_6.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW8{
+  background-image:url(images/work/liw/LiW_7.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW9{
+  background-image:url(images/work/liw/LiW_8.webp);
+  background-size:cover;
+  position: relative;
+  transition: .3s;
+  margin-top: 1em;
+}
+
+.LiW10{
+  background-image:url(images/work/liw/LiW_9.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+
+.LiW11{
+  background-image:url(images/work/liw/LiW_10.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW12{
+  background-image:url(images/work/liw/LiW_11.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW13{
+  background-image:url(images/work/liw/LiW_12.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
