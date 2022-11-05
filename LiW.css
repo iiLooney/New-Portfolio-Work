@@ -273,7 +273,7 @@
 }
 
 .LiW4{
-  background-image:url(images/work/liw/LiW_3.1.webp);
+  background-image:url(images/work/liw/LiW_4.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -281,35 +281,35 @@
 }
 
 .LiW5{
-  background-image:url(images/work/liw/LiW_4.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  margin-top: 1em;
-}
-.LiW6{
   background-image:url(images/work/liw/LiW_5.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
-.LiW7{
+.LiW6{
   background-image:url(images/work/liw/LiW_6.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
-.LiW8{
+.LiW7{
   background-image:url(images/work/liw/LiW_7.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
-.LiW9{
+.LiW8{
   background-image:url(images/work/liw/LiW_8.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  margin-top: 1em;
+}
+.LiW9{
+  background-image:url(images/work/liw/LiW_9.webp);
   background-size:cover;
   position: relative;
   transition: .3s;
@@ -317,7 +317,7 @@
 }
 
 .LiW10{
-  background-image:url(images/work/liw/LiW_9.webp);
+  background-image:url(images/work/liw/LiW_10.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -325,14 +325,14 @@
 }
 
 .LiW11{
-  background-image:url(images/work/liw/LiW_10.webp);
+  background-image:url(images/work/liw/LiW_11.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
   margin-top: 1em;
 }
 .LiW12{
-  background-image:url(images/work/liw/LiW_11.webp);
+  background-image:url(images/work/liw/LiW_3.1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
