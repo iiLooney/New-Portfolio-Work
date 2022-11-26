@@ -249,21 +249,21 @@
   /* Images for Grids */
 
 .MYC1{
-  background-image:url(images/work/myc/stills/myc1.webp);
+  background-image:url(images/work/myc/stills/MYC_1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;
 }
 .MYC2{
-  background-image:url(images/work/myc/stills/myc2.webp);
+  background-image:url(images/work/myc/stills/MYC_2.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em;
 }
 .MYC3{
-  background-image:url(images/work/myc/stills/myc3.webp);
+  background-image:url(images/work/myc/stills/MYC_3.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
@@ -271,7 +271,7 @@
 }
 
 .MYC4{
-  background-image:url(images/work/myc/stills/myc4.webp);
+  background-image:url(images/work/myc/stills/MYC_4.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -279,14 +279,14 @@
 }
 
 .MYC5{
-  background-image:url(images/work/myc/stills/myc5.webp);
+  background-image:url(images/work/myc/stills/MYC_5.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1em; 
 }
 .MYC6{
-  background-image:url(images/work/myc/stills/myc6.webp);
+  background-image:url(images/work/myc/stills/MYC_6.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -294,7 +294,7 @@
   
 }
 .MYC7{
-  background-image:url(images/work/myc/stills/myc7.webp);
+  background-image:url(images/work/myc/stills/MYC_7.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -302,7 +302,7 @@
   
 }
 .MYC8{
-  background-image:url(images/work/myc/stills/myc8.webp);
+  background-image:url(images/work/myc/stills/MYC_8.webp);
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -310,7 +310,7 @@
   
 }
 .MYC9{
-  background-image:url(images/work/myc/stills/myc9.webp);
+  background-image:url(images/work/myc/stills/MYC_9.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -318,7 +318,7 @@
   
 }
 .MYC10{
-  background-image:url(images/work/myc/stills/myc10.webp);
+  background-image:url(images/work/myc/stills/MYC_10.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -326,7 +326,7 @@
   
 }
 .MYC11{
-  background-image:url(images/work/myc/stills/myc11.webp);
+  background-image:url(images/work/myc/stills/MYC_11.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -334,7 +334,7 @@
   
 }
 .MYC12{
-  background-image:url(images/work/myc/stills/myc12.webp);
+  background-image:url(images/work/myc/stills/MYC_12.webp);
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -342,7 +342,31 @@
   
 }
 .MYC13{
-  background-image:url(images/work/myc/stills/myc13.webp);
+  background-image:url(images/work/myc/stills/MYC_13.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1em;
+  
+}
+.MYC14{
+  background-image:url(images/work/myc/stills/MYC_14.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1em;
+  
+}
+.MYC15{
+  background-image:url(images/work/myc/stills/MYC_15.webp);
+  background-size:contain;  position: relative;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1em;
+  
+}
+.MYC16{
+  background-image:url(images/work/myc/stills/MYC_16.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
