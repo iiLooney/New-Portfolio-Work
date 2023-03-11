@@ -125,6 +125,22 @@
     border-radius: 12px;
     
   }
+  .LDOE{
+    background-image:url(images/work/LDOE/ldoe_header_1.3.2.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .UNSNG{
+    background-image:url(images/work/unsng/unsng_7.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
   .LTN{
     background-image:url(images/work/ltn/ltn_2.webp);
     background-size:cover;
