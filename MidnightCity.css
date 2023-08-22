@@ -249,21 +249,21 @@
   /* Images for Grids */
 
 .MidC1{
-  background-image:url(images/work/midc/webp/MC_01.webp);
+  background-image:url(images/work/midc/webp/MC_1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .MidC2{
-  background-image:url(images/work/midc/webp/MC_02.webp);
+  background-image:url(images/work/midc/webp/MC_2.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .MidC3{
-  background-image:url(images/work/midc/webp/MC_03.webp);
+  background-image:url(images/work/midc/webp/MC_3.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
@@ -271,7 +271,7 @@
 }
 
 .MidC4{
-  background-image:url(images/work/midc/webp/MC_04.webp);
+  background-image:url(images/work/midc/webp/MC_4.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -279,14 +279,14 @@
 }
 
 .MidC5{
-  background-image:url(images/work/midc/webp/MC_05.webp);
+  background-image:url(images/work/midc/webp/MC_5.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em; 
 }
 .MidC6{
-  background-image:url(images/work/midc/webp/MC_06.webp);
+  background-image:url(images/work/midc/webp/MC_6.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -294,7 +294,7 @@
   
 }
 .MidC7{
-  background-image:url(images/work/midc/webp/MC_07.webp);
+  background-image:url(images/work/midc/webp/MC_7.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -302,7 +302,7 @@
   
 }
 .MidC8{
-  background-image:url(images/work/midc/webp/MC_08.webp);
+  background-image:url(images/work/midc/webp/MC_8.webp);
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -310,7 +310,7 @@
   
 }
 .MidC9{
-    background-image:url(images/work/midc/webp/MC_09.webp);
+    background-image:url(images/work/midc/webp/MC_9.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
