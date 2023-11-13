@@ -118,7 +118,7 @@
     
   }
   .MYC{
-    background-image:url(images/work/myc/stills/MYC_3.webp);
+    background-image:url(images/work/myc/stills/MYC_4.webp);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -174,7 +174,7 @@
     
   }
   .MidC{
-    background-image:url(images/work/midc/webp/MC_1.webp);
+    background-image:url(images/work/midc/webp/MC_9.webp);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -189,16 +189,38 @@
     border-radius: 12px;
     
   }
-  .WIAAWTM{
-    background-image:url(images/work/wiaawtm/WIAAWTM_7.webp);
+  .HLSorry{
+    background-image:url(images/work/harry-lyon-sorry/HarrySorry_7.webp);
     background-size:cover;
     position: relative;
     transition: 0.3s;
     border-radius: 12px;
     
   }
-.CD:hover, .Ang:hover, .JACKO:hover, .Muck:hover, .GH:hover, .BL:hover, .BTF:hover, .Cork:hover, .Yth:hover, .Swa:hover, .JF:hover, .MYC:hover,
-.LTN:hover, .LiW:hover, .LLL:hover, .MidC:hover, .UNSNG:hover, .WIAAWTM:hover
+  .Therapy{
+    background-image:url(images/work/therapy/therapy_1.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .Pulped{
+    background-image:url(images/work/david-shrigley/Pulped_11.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .WIAAWTM{
+    background-image:url(images/work/wiaawtm/WIAAWTM_10.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .therapy:hover,{
 {transform: scale(1.02);}
 
 @media (max-width:910px){
@@ -215,8 +237,9 @@
    margin-right: 0%;
     margin-left: 0%;
 }
-.BL, .Ang, .Muck, .GH, .CD, .BTF, .Cork, .Yth, .Swa, .JF, .MYC, .LTN, .LiW, .LLL, .JACKO, .UNSNG, .MidC, .WIAAWTM, .LightB:hover{
-  border-radius: 24px;
+  }
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .therapy:hover,
+{  border-radius: 24px;
 }
   }
 
