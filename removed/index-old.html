@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <meta name="description" />
+  <meta name="keywords" content="film Cinematography colorist camera dylan looney" />
+  <meta name="url" content="https://dylanlooney.com" />
+  <link rel="canonical" href="https://dylanlooney.com" />
+  <meta property="og:title" content="Dylan Looney" />
+  <meta property="og:description" />
+  <meta property="og:url" content="https://dylanlooney.com" />
+  <meta property="og:site_name" content="Dylan Looney" />
+  <meta property="og:type" content="website" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/home/dyl-favicon.png" type="img/png" sizes="16x16">
+  <script src="https://kit.fontawesome.com/1bab87b9fd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <link rel="stylesheet" type="text/css" href="work.css">
+  <title>Home | Dylan Looney Colourist</title>
+  <meta name="description" content="Dylan Looney Colourist | Freelance Colour Grading">
+
+</head>
+<body>
+<header>
+   <div id="page-wrap">
+     <nav class="navbar">
+         <div class="content">
+           <div class="brand"><a href="work.html" class="brand-brand-text" title="dylan looney home page">
+            <span class="brand-title"><img src="images/home/newadj_1.gif" title="Home"></a></span>
+                <span class="brand-subtitle"></span></a></div>
+          </div>
+        </div>
+      </nav>
+
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+    </header>
+    <body>
+    </div>
+    </body>
+</div>
+</div>
+</html>
