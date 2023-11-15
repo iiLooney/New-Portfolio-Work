@@ -11,7 +11,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-template-rows: 1fr;
   height:100%;
   grid-gap:1.5vw;
@@ -118,7 +118,7 @@
   
 }
 .MYC{
-  background-image:url(images/work/myc/stills/MYC_4.webp);
+  background-image:url(images/work/myc/stills/MYC_4alt.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -228,16 +228,16 @@
 
 }
 
-@media (max-width:910px){
+@media (max-width:750px){
 .title{
   text-align: center;}
   
 .grid{
     padding-top: .5em;
-    grid-gap: 4vw;
+    grid-gap: 5vw;
 }
 }
-@media (max-width:600px){
+@media (max-width:750px){
   .body-wrapper{
  margin-right: 0%;
   margin-left: 0%;
