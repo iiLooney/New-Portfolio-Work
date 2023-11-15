@@ -14,7 +14,7 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
     height:100%;
-    grid-gap:1vw;
+    grid-gap:1.8vw;
     padding-bottom: 1em;
   }
   .title{
@@ -229,7 +229,7 @@
     
   .grid{
       padding-top: .5em;
-      grid-gap: 1.5em;
+      grid-gap: 3vw;
   }
 }
   @media (max-width:600px){
