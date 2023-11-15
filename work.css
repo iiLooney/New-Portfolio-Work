@@ -237,7 +237,7 @@
       grid-gap: 4vw;
   }
 }
-  @media (max-width:600px){
+  @media (max-width:0px){
     .body-wrapper{
    margin-right: 0%;
     margin-left: 0%;
