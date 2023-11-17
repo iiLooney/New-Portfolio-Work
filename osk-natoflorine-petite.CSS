@@ -250,70 +250,98 @@
   /* Images for Grids */
 
 .OSK_Petite1{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite2{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_2.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite3{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_3.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite4{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_4.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite5{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_5.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite6{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_6.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite7{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_7.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite8{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_8.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite9{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_9.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .OSK_Petite10{
-  background-image:url(images/work/x);
+  background-image:url(images/work/petite/Petite_10.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.OSK_Petite11{
+  background-image:url(images/work/petite/Petite_11.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.OSK_Petite12{
+  background-image:url(images/work/petite/Petite_12.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.OSK_Petite13{
+  background-image:url(images/work/petite/Petite_13.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.OSK_Petite14{
+  background-image:url(images/work/petite/Petite_14.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
