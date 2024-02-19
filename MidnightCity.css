@@ -250,21 +250,21 @@
   /* Images for Grids */
 
 .MidC1{
-  background-image:url(images/work/midc/webp/MC_1.webp);
+  background-image:url(images/work/midc/webp/mc_aa.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .MidC2{
-  background-image:url(images/work/midc/webp/MC_2.webp);
+  background-image:url(images/work/midc/webp/mc_bb.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .MidC3{
-  background-image:url(images/work/midc/webp/MC_3.webp);
+  background-image:url(images/work/midc/webp/mc_cc.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
@@ -272,7 +272,7 @@
 }
 
 .MidC4{
-  background-image:url(images/work/midc/webp/MC_4.webp);
+  background-image:url(images/work/midc/webp/mc_dd.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -280,14 +280,14 @@
 }
 
 .MidC5{
-  background-image:url(images/work/midc/webp/MC_5.webp);
+  background-image:url(images/work/midc/webp/mc_ee.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em; 
 }
 .MidC6{
-  background-image:url(images/work/midc/webp/MC_6.webp);
+  background-image:url(images/work/midc/webp/mc_ff.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -295,7 +295,7 @@
   
 }
 .MidC7{
-  background-image:url(images/work/midc/webp/MC_7.webp);
+  background-image:url(images/work/midc/webp/mc_gg.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
@@ -303,7 +303,7 @@
   
 }
 .MidC8{
-  background-image:url(images/work/midc/webp/MC_8.webp);
+  background-image:url(images/work/midc/webp/mc_hh.webp);
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -311,7 +311,7 @@
   
 }
 .MidC9{
-    background-image:url(images/work/midc/webp/MC_9.webp);
+    background-image:url(images/work/midc/webp/mc_ii.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
@@ -319,7 +319,7 @@
     
   }
   .MidC10{
-    background-image:url(images/work/midc/webp/MC_10.webp);
+    background-image:url(images/work/midc/webp/mc_jj.webp);
     background-size:contain;  position: relative;
     background-repeat: no-repeat;
     transition: 0.3s;
@@ -327,21 +327,21 @@
     
   }
   .MidC11{
-    background-image:url(images/work/midc/webp/MC_11.webp);
+    background-image:url(images/work/midc/webp/mc_kk.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .MidC12{
-    background-image:url(images/work/midc/webp/MC_12.webp);
+    background-image:url(images/work/midc/webp/mc_lll.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .MidC13{
-    background-image:url(images/work/midc/webp/MC_13.webp);
+    background-image:url(images/work/midc/webp/mc_mm.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: .3s;
@@ -349,7 +349,7 @@
   }
   
   .MidC14{
-    background-image:url(images/work/midc/webp/MC_14.webp);
+    background-image:url(images/work/midc/webp/mc_nn.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
@@ -357,14 +357,14 @@
   }
   
   .MidC15{
-    background-image:url(images/work/midc/webp/MC_15.webp);
+    background-image:url(images/work/midc/webp/mc_oo.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em; 
   }
   .MidC16{
-    background-image:url(images/work/midc/webp/MC_16.webp);
+    background-image:url(images/work/midc/webp/mc_pp.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
@@ -372,17 +372,9 @@
     
   }
   .MidC17{
-    background-image:url(images/work/midc/webp/MC_17.webp);
+    background-image:url(images/work/midc/webp/mc_qq.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
-    transition: 0.3s;
-    margin-top: 1.5em;
-    
-  }
-  .MidC18{
-    background-image:url(images/work/midc/webp/MC_18.webp);
-    background-size:contain;  position: relative;
-    background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
     
