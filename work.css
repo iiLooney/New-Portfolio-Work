@@ -125,6 +125,14 @@
     border-radius: 12px;
     
   }
+  .BeinginLove{
+    background-image:url(images/work/aht-beinginlove/BeinginLove_12.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
 
 @media (max-width:750px){
   .title{
