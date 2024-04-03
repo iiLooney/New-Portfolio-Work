@@ -68,8 +68,9 @@
   
 }
 .MidC{
-  background-image:url(images/work/midc/webp/MC_9.webp);
+  background-image:url(images/work/midc/webp/mc_ii.webp);
   background-size:cover;
+  background-repeat: no-repeat;
   position: relative;
   transition: 0.3s;
   border-radius: 12px;
@@ -118,6 +119,14 @@
 
 .OSK_Petite{
   background-image:url(images/work/petite/Petite_Cover.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.BeinginLove{
+  background-image:url(images/work/aht-beinginlove/BeinginLove_12.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
