@@ -261,47 +261,36 @@
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
-  margin: 0 0 -3em 0;
-
 }
 .FLEETING2{
     background-image:url(images/work/fleeting/FLEETING2.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
-  margin: 0 0 -3em 0;
-
 }
 .FLEETING3{
     background-image:url(images/work/fleeting/FLEETING3.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: .3s;
-  margin: 0 0 -3em 0;
-
 }
 
 .FLEETING4{
     background-image:url(images/work/fleeting/FLEETING4.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
-  transition: 0.3s;
-  margin: 0 0 -3em 0;
-}
+  transition: 0.3s;}
 
 .FLEETING5{
     background-image:url(images/work/fleeting/FLEETING5.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
-  transition: 0.3s;
-  margin: 0 0 -3em 0;
-}
+  transition: 0.3s;}
 .FLEETING6{
     background-image:url(images/work/fleeting/FLEETING6.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
-  margin: 0 0 -3em 0;
   
 }
 .FLEETING7{
@@ -309,7 +298,6 @@
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
-  margin: 0 0 -3em 0;
   
 }
 .FLEETING8{
@@ -317,7 +305,6 @@
   background-size:contain;  position: relative;
   background-repeat: no-repeat;
   transition: 0.3s;
-  margin: 0 0 -3em 0;
   
 }
 .FLEETING9{
@@ -325,7 +312,6 @@
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
     
   }
   .FLEETING10{
@@ -333,7 +319,6 @@
     background-size:contain;  position: relative;
     background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
     
   }
   .FLEETING11{
@@ -341,28 +326,25 @@
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
   }
   .FLEETING12{
     background-image:url(images/work/fleeting/FLEETING12.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
+    margin: 0 0;
   }
   .FLEETING13{
     background-image:url(images/work/fleeting/FLEETING13.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
   }
   .FLEETING14{
     background-image:url(images/work/fleeting/FLEETING14.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
-    margin: 0 0 -3em 0;
   }
   
   
