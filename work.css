@@ -44,7 +44,7 @@
 
   
   .MYC{
-    background-image:url(images/work/myc/stills/MYC_4alt.webp);
+    background-image:url(images/work/myc/stills/MYC_13\ copy.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -101,7 +101,7 @@
     
   }
   .Pulped{
-    background-image:url(images/work/david-shrigley/Pulped_11.webp);
+    background-image:url(images/work/david-shrigley/Pulped_4.webp);
     background-size:cover;
     position: relative;
     transition: 0.3s;
@@ -126,7 +126,23 @@
     
   }
   .BeinginLove{
-    background-image:url(images/work/aht-beinginlove/BeinginLove_12.webp);
+    background-image:url(images/work/aht-beinginlove/BeinginLove_1.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .PlasticSong{
+    background-image:url(images/work/aht-plasticsong/PlasticSong_5.webp);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .FLEETING{
+    background-image:url(images/work/fleeting/FLEETINGmain.png);
     background-size:cover;
     position: relative;
     transition: 0.3s;
