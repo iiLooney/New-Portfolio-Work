@@ -8,6 +8,15 @@
   flex: 1 1 80%;
   min-height:100%;
   }
+
+  body{
+    background-image: url("images/work/aht-beinginlove/BeinginLove_2.webp");
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }  
   
   .body-wrapper{
       padding-top:3%;
