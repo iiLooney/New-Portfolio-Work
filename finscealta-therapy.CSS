@@ -330,6 +330,13 @@
     margin-top: 1.5em;
   }
 
+  .FLEETING14{
+    background-image:url(images/work/fleeting/FLEETING14.webp);
+    background-size:contain;  position: relative;
+          background-repeat: no-repeat;
+    transition: 0.3s;
+  }
+
 
   
   
