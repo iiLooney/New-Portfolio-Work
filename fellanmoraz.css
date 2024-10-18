@@ -1,0 +1,379 @@
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+padding-left: 9%;
+padding-right: 9%;
+padding-bottom: 0%;
+flex: 1 1 80%;
+min-height:100%;
+}
+body{
+  background-image: url("images/work/fleeting/FLEETING2.webp");
+  background-blend-mode:soft-light;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}  
+.body-wrapper{
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    flex: 1 1 80%;
+    min-height:100%;
+}
+h1{
+  margin: 0;
+}
+h2{
+  font-size: 0.8em;
+  margin: .5em 0 .5em 0;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+grid-template-rows: 1fr;
+height:100%;
+grid-gap:1vw;
+}
+p{
+font-size: 1.5em;
+}
+.title{
+color: white;
+font-size: 1.8em;
+margin: 0 0 .8em 0;
+flex-wrap: nowrap;
+text-align: center;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+
+}
+
+.page-title{
+color: white;
+font-size: 1.6em;
+flex-wrap: nowrap;
+text-align: center;
+
+}
+
+.subtitle{
+color: white;
+font-size: 1em;
+margin: 0 0 2em 0;
+flex-wrap: nowrap;
+text-align: center;
+line-height: 4vh;
+font-style: italic;
+}
+.subtitle2{
+color: white;
+font-size: 1.5em;
+margin: 0 0 .25em 0;
+flex-wrap: nowrap;
+text-align: center;
+padding-bottom: 2%;
+}
+
+@media (max-width:1000px){
+.title{
+    font-size: 1.5em;
+    margin: 0 0 .8em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .page-title{
+    font-size: 2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .subtitle{
+    font-size: 1em;
+    margin: 0 0 2em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+    line-height: 4vh;
+font-style: italic;
+  }
+  h1{
+    font-size: 1.4em;
+  }
+  h2{
+    font-size: 0.8em;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  .subtitle2{
+  
+    font-size: 1.2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+
+}
+@media (max-width:550px){
+.title{
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 0.8em;
+  }
+  p{
+    font-size: 1em;
+  }
+
+  .page-title{
+    font-size: 1.7em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+
+  }
+
+  .subtitle{
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+    line-height: 4vh;
+font-style: italic;
+  }
+  .subtitle2{
+
+    font-size: 1em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    height:100%;
+    grid-gap:1vw;
+    padding-bottom: 2.5em;
+  }
+
+}
+span{
+color: white;
+}
+
+.item {
+display: flex;
+justify-content:center;
+align-items:center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.item:before {
+content: "";
+display: block;
+height: 0;
+width: 0;
+padding-bottom: calc(9/16 * 100%);
+}
+
+
+.title{
+  text-align: center;}
+
+.itemsquare {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.itemsquare:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  padding-bottom: calc(9/21 * 100%);
+}
+
+
+@media (max-width:550px){
+  .title{
+      text-align: center;}
+
+
+.grid{
+    padding-top: .5em;
+    grid-gap: 1.5em;
+}
+.item .film-title{
+  transition: none;
+  color: white;
+  opacity: 1;
+}
+}
+
+
+.film-title{
+color: rgba(255, 255, 255);
+text-decoration: none;
+transition: ease 0.4s;
+padding:2em;
+opacity: 1;
+}
+
+.film-title:hover{
+color: rgb(156, 156, 156);
+transform: scale(1.05);
+}
+
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .therapy:hover,{
+  transform: scale(1.02);
+}
+
+@media (max-width:550px){
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .therapy:hover,{
+    transform: none;
+}
+}
+
+/* Images for Grids */
+
+
+.FLEETING1{
+  background-image:url(images/work/fleeting/FLEETING1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING2{
+  background-image:url(images/work/fleeting/FLEETING2.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING3{
+  background-image:url(images/work/fleeting/FLEETING3.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING4{
+  background-image:url(images/work/fleeting/FLEETING4.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FLEETING5{
+  background-image:url(images/work/fleeting/FLEETING5.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING6{
+  background-image:url(images/work/fleeting/FLEETING6.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING7{
+  background-image:url(images/work/fleeting/FLEETING7.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING8{
+  background-image:url(images/work/fleeting/FLEETING8.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING9{
+  background-image:url(images/work/fleeting/FLEETING9.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FLEETING10{
+  background-image:url(images/work/fleeting/FLEETING10.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING11{
+  background-image:url(images/work/fleeting/FLEETING11.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING12{
+  background-image:url(images/work/fleeting/FLEETING12.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING13{
+  background-image:url(images/work/fleeting/FLEETING13.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+.FLEETING14{
+  background-image:url(images/work/fleeting/FLEETING14.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+
+
+
+
+/*.Cork{
+background-image:url(images/work/cork-simon/CSimon.webp);
+background-size:cover;
+position: relative;
+transition: 0.3s;
+
+}*/

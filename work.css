@@ -149,6 +149,30 @@
     border-radius: 12px;
     
   }
+  .LastSaturdayNight{
+    background-image:url(images/work/lastsaturdaynight/yenk_lsn_16.jpg);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .CALLMYBLUFF{
+    background-image:url(images/work/callmybluff/CMB_Web_3\ \(1\).jpg);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
+  .FellanM{
+    background-image:url(images/work/fellanm/forwork_1.2.1.jpg);
+    background-size:cover;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+  }
 
 @media (max-width:750px){
   .title{
