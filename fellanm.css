@@ -9,7 +9,7 @@ flex: 1 1 80%;
 min-height:100%;
 }
 body{
-  background-image: url("images/work/fleeting/FLEETING2.webp");
+  background-image: url("images/work/fellan-m/FM__1.42.1.webp");
   background-blend-mode:soft-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -210,7 +210,7 @@ padding-bottom: calc(9/16 * 100%);
   display: block;
   height: 0;
   width: 0;
-  padding-bottom: calc(9/21 * 100%);
+  padding-bottom: calc(9/16 * 100%);
 }
 
 
@@ -257,115 +257,142 @@ transform: scale(1.05);
 /* Images for Grids */
 
 
-.FLEETING1{
-  background-image:url(images/work/fleeting/FLEETING1.webp);
+.FellanM1{
+  background-image:url(images/work/fellan-m/FM__1.2.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM2{
+  background-image:url(images/work/fellan-m/FM__1.3.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM3{
+  background-image:url(images/work/fellan-m/FM__1.6.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM4{
+  background-image:url(images/work/fellan-m/FM__1.11.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM5{
+  background-image:url(images/work/fellan-m/FM__1.13.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM6{
+  background-image:url(images/work/fellan-m/FM__1.19.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM7{
+  background-image:url(images/work/fellan-m/FM__1.22.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM8{
+  background-image:url(images/work/fellan-m/FM__1.23.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM9{
+  background-image:url(images/work/fellan-m/FM__1.25.1\ 2.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM10{
+  background-image:url(images/work/fellan-m/FM__1.32.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM11{
+  background-image:url(images/work/fellan-m/FM__1.37.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM12{
+  background-image:url(images/work/fellan-m/FM__1.40.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM13{
+  background-image:url(images/work/fellan-m/FM__1.42.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM14{
+  background-image:url(images/work/fellan-m/FM__1.43.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM15{
+  background-image:url(images/work/fellan-m/FM__1.48.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM16{
+  background-image:url(images/work/fellan-m/FM__1.51.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM17{
+  background-image:url(images/work/fellan-m/FM__1.62.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM18{
+  background-image:url(images/work/fellan-m/FM__1.64.1.webp);
+  background-size:contain;  position: relative;
+        background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-top: 1.5em;
+}
+.FellanM19{
+  background-image:url(images/work/fellan-m/FM__1.66.1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 
-.FLEETING2{
-  background-image:url(images/work/fleeting/FLEETING2.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
 
-.FLEETING3{
-  background-image:url(images/work/fleeting/FLEETING3.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
 
-.FLEETING4{
-  background-image:url(images/work/fleeting/FLEETING4.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-.FLEETING5{
-  background-image:url(images/work/fleeting/FLEETING5.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING6{
-  background-image:url(images/work/fleeting/FLEETING6.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING7{
-  background-image:url(images/work/fleeting/FLEETING7.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING8{
-  background-image:url(images/work/fleeting/FLEETING8.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING9{
-  background-image:url(images/work/fleeting/FLEETING9.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-.FLEETING10{
-  background-image:url(images/work/fleeting/FLEETING10.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING11{
-  background-image:url(images/work/fleeting/FLEETING11.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING12{
-  background-image:url(images/work/fleeting/FLEETING12.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING13{
-  background-image:url(images/work/fleeting/FLEETING13.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
-
-.FLEETING14{
-  background-image:url(images/work/fleeting/FLEETING14.webp);
-  background-size:contain;  position: relative;
-        background-repeat: no-repeat;
-  transition: 0.3s;
-  margin-top: 1.5em;
-}
 
 
 

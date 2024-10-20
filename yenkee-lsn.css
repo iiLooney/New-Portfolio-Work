@@ -191,7 +191,7 @@ content: "";
 display: block;
 height: 0;
 width: 0;
-padding-bottom: calc(9/12 * 100%);
+padding-bottom: calc(9/15 * 100%);
 }
 
 
@@ -210,7 +210,7 @@ padding-bottom: calc(9/12 * 100%);
   display: block;
   height: 0;
   width: 0;
-  padding-bottom: calc(9/12 * 100%);
+  padding-bottom: calc(9/15 * 100%);
 }
 
 
