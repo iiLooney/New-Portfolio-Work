@@ -44,7 +44,7 @@
 
 
 .MYC{
-  background-image:url(images/work/myc/stills/MYC_4.webp);
+  background-image:url(images/work/myc/stills/MYC_4alt.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -60,7 +60,7 @@
   
 }
 .JACKO{
-  background-image:url(images/work/jacko/jacko1.webp);
+  background-image:url(images/work/jacko/jacko2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -93,7 +93,7 @@
   
 }
 .Therapy{
-  background-image:url(images/work/therapy/therapy_cover.webp);
+  background-image:url(images/work/therapy/Therapy_2.jpeg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -101,7 +101,7 @@
   
 }
 .Pulped{
-  background-image:url(images/work/david-shrigley/Pulped_9.webp);
+  background-image:url(images/work/david-shrigley/Pulped_11.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -167,7 +167,39 @@
   
 }
 .FellanM{
-  background-image:url(images/work/fellan-m/FM__1.62.1.webp);
+  background-image:url(images/work/fellan-m/FM__1.43.1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Unsung{
+  background-image:url(images/work/test/Still\ 2025-01-17\ 182352_1.84.1.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.YFaithfully{
+  background-image:url(images/work/test/yf_1.4.1.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.EncoreFB{
+  background-image:url(images/work/test/encore_a_1.16.1.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.CSR{
+  background-image:url(images/work/test/csr_1920_1.1099.1.T.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -196,6 +228,7 @@
 
 .film-title{
   font-size: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(255, 255, 255, 0.1);
   opacity: 0;
   justify-content: center;

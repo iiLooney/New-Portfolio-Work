@@ -8,6 +8,7 @@
   margin-left: 5%;
   flex: 1 1 80%;
   min-height:100%;
+  
 }
 .grid {
   display: grid;
@@ -22,6 +23,7 @@
     font-size: 2em;
     margin: 0 0 .25em 0;
     flex-wrap: nowrap;
+    
 
 }
 
@@ -30,7 +32,7 @@
   justify-content:center;
   align-items:center;
   background: lightgray;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .item:before {
@@ -44,7 +46,7 @@
 
 
 .MYC{
-  background-image:url(images/work/myc/stills/MYC_4.webp);
+  background-image:url(images/work/myc/stills/MYC_4alt.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -60,7 +62,7 @@
   
 }
 .JACKO{
-  background-image:url(images/work/jacko/jacko1.webp);
+  background-image:url(images/work/jacko/jacko2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -93,7 +95,7 @@
   
 }
 .Therapy{
-  background-image:url(images/work/therapy/therapy_cover.webp);
+  background-image:url(images/work/therapy/Therapy_2.jpeg);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -101,7 +103,7 @@
   
 }
 .Pulped{
-  background-image:url(images/work/david-shrigley/Pulped_9.webp);
+  background-image:url(images/work/david-shrigley/Pulped_11.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -167,7 +169,7 @@
   
 }
 .FellanM{
-  background-image:url(images/work/fellan-m/FM__1.62.1.webp);
+  background-image:url(images/work/fellan-m/FM__1.43.1.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -196,6 +198,7 @@
 
 .film-title{
   font-size: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(255, 255, 255, 0.1);
   opacity: 0;
   justify-content: center;

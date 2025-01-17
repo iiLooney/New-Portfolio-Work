@@ -27,9 +27,12 @@ body{
   }
   h1{
     margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
   }
   h2{
     font-size: 0.8em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: .5em 0 .5em 0;
   }
   
