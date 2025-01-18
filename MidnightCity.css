@@ -266,6 +266,7 @@
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
+  margin-top: 1.5em;
 }
 .MidC2{
   background-image:url(images/work/midc/webp/mc_bb.webp);
