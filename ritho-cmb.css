@@ -9,7 +9,7 @@ flex: 1 1 80%;
 min-height:100%;
 }
 body{
-  background-image: url("images/work/callmybluff/CMB_Web_3\ \(1\).jpg");
+  background-image: url("images/work/callmybluff/CMB_Web_3.webp");
   background-blend-mode:soft-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -262,88 +262,89 @@ transform: scale(1.05);
 
 
 .CALLMYBLUFF1{
-  background-image:url(images/work/callmybluff/CMB_Web_1\ \(1\).jpg);
+  background-image:url(images/work/callmybluff/CMB_Web_1.webp);
   background-size:contain;  position: relative;
         background-repeat: no-repeat;
   transition: 0.3s;
   margin-top: 1.5em;
 }
 .CALLMYBLUFF2{
-    background-image:url(images/work/callmybluff/CMB_Web_2\ \(1\).jpg);
+    background-image:url(images/work/callmybluff/CMB_Web_2.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .CALLMYBLUFF3{
-    background-image:url(images/work/callmybluff/CMB_Web_3\ \(1\).jpg);
+    background-image:url(images/work/callmybluff/CMB_Web_3.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .CALLMYBLUFF4{
-    background-image:url(images/work/callmybluff/CMB_Web_4\ \(1\).jpg);
+    background-image:url(images/work/callmybluff/CMB_Web_4.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .CALLMYBLUFF5{
-    background-image:url(images/work/callmybluff/CMB_Web_5\ \(1\).jpg);
+    background-image:url(images/work/callmybluff/CMB_Web_5.webp);
     background-size:contain;  position: relative;
           background-repeat: no-repeat;
     transition: 0.3s;
     margin-top: 1.5em;
   }
   .CALLMYBLUFF6{
-    background-image:url(images/work/callmybluff/CMB_Web_6\ \(1\).jpg);
+    background-image:url(images/work/callmybluff/CMB_Web_6.webp);
     background-size:contain;  position: relative;
             background-repeat: no-repeat;
       transition: 0.3s;
       margin-top: 1.5em;
     }
     .CALLMYBLUFF7{
-        background-image:url(images/work/callmybluff/CMB_Web_7\ \(1\).jpg);
+        background-image:url(images/work/callmybluff/CMB_Web_7.webp);
         background-size:contain;  position: relative;
             background-repeat: no-repeat;
       transition: 0.3s;
       margin-top: 1.5em;
     }
     .CALLMYBLUFF8{
-        background-image:url(images/work/callmybluff/CMB_Web_8\ \(1\).jpg);
+        background-image:url(images/work/callmybluff/CMB_Web_8.webp);
         background-size:contain;  position: relative;
             background-repeat: no-repeat;
       transition: 0.3s;
       margin-top: 1.5em;
     }
     .CALLMYBLUFF9{
-        background-image:url(images/work/callmybluff/CMB_Web_9\ \(1\).jpg);
+        background-image:url(images/work/callmybluff/CMB_Web_9.webp);
         background-size:contain;  position: relative;
               background-repeat: no-repeat;
         transition: 0.3s;
         margin-top: 1.5em;
       }
       .CALLMYBLUFF10{
-        background-image:url(images/work/callmybluff/CMB_Web_10\ \(1\).jpg);
+        background-image:url(images/work/callmybluff/CMB_Web_10.webp);
         background-size:contain;  position: relative;
                 background-repeat: no-repeat;
           transition: 0.3s;
           margin-top: 1.5em;
         }
         .CALLMYBLUFF11{
-            background-image:url(images/work/callmybluff/CMB_Web_11\ \(1\).jpg);
+            background-image:url(images/work/callmybluff/CMB_Web_11.webp);
             background-size:contain;  position: relative;
                 background-repeat: no-repeat;
           transition: 0.3s;
           margin-top: 1.5em;
         }
         .CALLMYBLUFF12{
-            background-image:url(images/work/callmybluff/CMB_Web_12\ \(1\).jpg);
+            background-image:url(images/work/callmybluff/CMB_Web_12.webp);
             background-size:contain;  position: relative;
                 background-repeat: no-repeat;
           transition: 0.3s;
           margin-top: 1.5em;
+          padding-bottom: 2em;
         }
 
 

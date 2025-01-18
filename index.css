@@ -8,7 +8,6 @@
   margin-left: 5%;
   flex: 1 1 80%;
   min-height:100%;
-  
 }
 .grid {
   display: grid;
@@ -23,7 +22,6 @@
     font-size: 2em;
     margin: 0 0 .25em 0;
     flex-wrap: nowrap;
-    
 
 }
 
@@ -32,7 +30,7 @@
   justify-content:center;
   align-items:center;
   background: lightgray;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .item:before {
@@ -53,14 +51,7 @@
   border-radius: 12px;
   
 }
-.UNSNG{
-  background-image:url(images/work/unsng/unsng_6.webp);
-  background-size:cover;
-  position: relative;
-  transition: 0.3s;
-  border-radius: 12px;
-  
-}
+
 .JACKO{
   background-image:url(images/work/jacko/jacko2.webp);
   background-size:cover;
@@ -95,7 +86,7 @@
   
 }
 .Therapy{
-  background-image:url(images/work/therapy/Therapy_2.jpeg);
+  background-image:url(images/work/therapy/Therapy_2main.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -144,7 +135,7 @@
   
 }
 .FLEETING{
-  background-image:url(images/work/fleeting/FLEETINGmain.png);
+  background-image:url(images/work/fleeting/FLEETINGmain16.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -153,7 +144,7 @@
 }
 
 .CALLMYBLUFF{
-  background-image:url(images/work/callmybluff/CMB_Web_3\ \(1\).jpg);
+  background-image:url(images/work/callmybluff/CMB_Web_3.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -161,7 +152,7 @@
   
 }
 .LastSaturdayNight{
-  background-image:url(images/work/lastsaturdaynight/yenk_lsn_16.jpg);
+  background-image:url(images/work/lastsaturdaynight/yenk_lsn_16.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -170,6 +161,38 @@
 }
 .FellanM{
   background-image:url(images/work/fellan-m/FM__1.43.1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Unsung{
+  background-image:url(images/work/unsung/UNSUNG-2.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.YFaithfully{
+  background-image:url(images/work/yfaithfully/YF-1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.EncoreFB{
+  background-image:url(images/work/encorefb/ENCORE-main.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.CSR{
+  background-image:url(images/work/csr/CSR-HEAD2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
