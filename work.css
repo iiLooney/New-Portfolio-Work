@@ -207,6 +207,9 @@
 .grid{
     padding-top: .5em;
     grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 0 5% 0;
+
 }
 }
 @media (max-width:750px){
@@ -215,7 +218,7 @@
   margin-left: 0%;
 }
 }
-.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
 {  border-radius: 24px;
 }
 

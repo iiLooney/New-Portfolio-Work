@@ -210,8 +210,10 @@
   text-align: center;}
   
 .grid{
-    padding-top: .5em;
-    grid-gap: 5vw;
+  padding-top: .5em;
+  grid-gap: 5vw;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 0 5% 0;
 }
 }
 @media (max-width:750px){
