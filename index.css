@@ -199,6 +199,11 @@
   border-radius: 12px;
   
 }
+.body-rapper{
+  margin-right: 0%;
+   margin-left: 0%;
+   padding: 5%;
+}
 
 @media (max-width:750px){
 .title{
@@ -212,7 +217,11 @@
 @media (max-width:750px){
   .body-wrapper{
  margin-right: 0%;
-  margin-left: 0%;
+  margin-left: 0%;}
+  .body-rapper{
+    margin-right: 0%;
+     margin-left: 0%;
+     padding: 0%;
 }
 }
 .LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
