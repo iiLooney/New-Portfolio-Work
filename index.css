@@ -11,19 +11,12 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-template-rows: 1fr;
   height:100%;
   grid-gap:1.5vw;
   padding-bottom: 1em;
 }
-/*.grid-reel {
-  display: grid;
-  grid-template-rows: 1fr;
-  height:100%;
-  grid-gap:1.5vw;
-  padding-bottom: 1em;
-}*/
 .title{
     color: #0783A0;
     font-size: 2em;

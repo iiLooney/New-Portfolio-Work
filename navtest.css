@@ -215,7 +215,7 @@ header{
   right: 30px;
   top: 20px;
 }
-@media (max-width: 910px) {
+@media (max-width: 1050px) {
   body.disabled{
     overflow: hidden;
   }
@@ -330,7 +330,7 @@ header{
 }
 }
 */
-@media (max-width: 900px)
+@media (max-width: 1050px)
 {
   .image-overlay .image-heading{
     font-size: 28px;
