@@ -239,7 +239,6 @@
   opacity: 1;
 }
 .item:hover{
-opacity: .9;
 transform: scale(1.01);
 }
 
