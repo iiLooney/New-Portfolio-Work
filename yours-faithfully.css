@@ -237,6 +237,7 @@ padding-bottom: calc(9/15 * 100%);
 .film-title{
 color: rgba(255, 255, 255);
 text-decoration: none;
+font-size: .8em;
 transition: ease 0.4s;
 padding:2em;
 opacity: 1;

@@ -238,6 +238,7 @@
   color: rgba(255, 255, 255);
   text-decoration: none;
   transition: ease 0.4s;
+  font-size: .8em;
   padding:2em;
   opacity: 1;
   }
