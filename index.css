@@ -199,11 +199,13 @@
   border-radius: 12px;
   
 }
-.body-rapper{
+/*.body-rapper{
   margin-right: 0%;
-   margin-left: 0%;
+   margin-left: 5%;
    padding: 5%;
-}
+  }
+   */
+
 
 @media (max-width:750px){
 .title{
