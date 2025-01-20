@@ -127,23 +127,23 @@ body{
     }
   
   }
-  @media (max-width:550px){
-  .title{
-      font-size: 1.5em;
-      margin: 0 0 1em 0;
-      flex-wrap: nowrap;
-      text-align: center;
-  
-    }
-    h1{
-      font-size: 1.5em;
-    }
-    h2{
-      font-size: 0.8em;
-    }
-    p{
-      font-size: 1em;
-    }
+  @media (max-width:610px){
+    .title{
+        font-size: 1.5em;
+        margin: 0 0 1em 0;
+        flex-wrap: nowrap;
+        text-align: center;
+    
+      }
+      h1{
+        font-size: 1.2em;
+      }
+      h2{
+        font-size: 0.8em;
+      }
+      p{
+        font-size: 1em;
+      }
   
     .page-title{
       font-size: 1.7em;

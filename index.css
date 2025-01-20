@@ -234,8 +234,7 @@ font-size: 0.5em;
 
 @media (max-width:750px){
   .film-title{
-    font-size: 1.4em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
 
   }
 .title{

@@ -109,13 +109,13 @@ padding-bottom: 2%;
 font-style: italic;
   }
   h1{
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   h2{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   p{
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .subtitle2{
   
@@ -126,7 +126,7 @@ font-style: italic;
   }
 
 }
-@media (max-width:550px){
+@media (max-width:610px){
 .title{
     font-size: 1.5em;
     margin: 0 0 1em 0;
@@ -135,7 +135,7 @@ font-style: italic;
 
   }
   h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   h2{
     font-size: 0.8em;
