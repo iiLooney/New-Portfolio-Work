@@ -199,6 +199,31 @@
   border-radius: 12px;
   
 }
+
+.film-title{
+  font-size: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255, 0.1);
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2.1em;
+}
+
+.film-title:hover{
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.item:hover{
+transform: scale(1.01);
+}
+
+.film-subheading{
+margin-top: 0.1em;
+font-size: 0.5em;
+}
 /*.body-rapper{
   margin-right: 0%;
    margin-left: 5%;
@@ -208,6 +233,9 @@
 
 
 @media (max-width:750px){
+  .film-title{
+    font-size: 1em;
+  }
 .title{
   text-align: center;}
   
@@ -238,30 +266,6 @@
 {  border-radius: 24px;
 }
 
-.film-title{
-  font-size: 1.6em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(255, 255, 255, 0.1);
-  opacity: 0;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 2.1em;
-}
-
-.film-title:hover{
-  color: rgba(255, 255, 255, 1);
-  opacity: 1;
-}
-.item:hover{
-transform: scale(1.01);
-}
-
-.film-subheading{
-margin-top: 0.1em;
-font-size: 0.5em;
-}
 
 
 

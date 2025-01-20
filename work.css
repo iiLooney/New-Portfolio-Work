@@ -199,32 +199,9 @@
   border-radius: 12px;
   
 }
-
-@media (max-width:750px){
-.title{
-  text-align: center;}
-  
-.grid{
-    padding-top: .5em;
-    grid-gap: 5vw;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    padding: 0 5% 0;
-}
-}
-
-@media (max-width:750px){
-  .body-wrapper{
- margin-right: 0%;
-  margin-left: 0%;
-}
-}
-.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
-{  border-radius: 24px;
-}
-
 .film-title{
   font-size: 1.6em;
-  font-family: Cambria, Cochin, Georgia, serif, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(255, 255, 255, 0.1);
   opacity: 0;
   justify-content: center;
@@ -246,6 +223,34 @@ transform: scale(1.01);
 margin-top: 0.1em;
 font-size: 0.5em;
 }
+
+
+@media (max-width:750px){
+  .film-title{
+    font-size: 1em;
+  }
+.title{
+  text-align: center;}
+
+  
+.grid{
+    padding-top: .5em;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 0 5% 0;
+}
+}
+
+@media (max-width:750px){
+  .body-wrapper{
+ margin-right: 0%;
+  margin-left: 0%;
+}
+}
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
+{  border-radius: 24px;
+}
+
 
 
 
