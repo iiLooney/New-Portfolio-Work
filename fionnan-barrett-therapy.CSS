@@ -126,7 +126,7 @@
     }
   
   }
-  @media (max-width:610px){
+  @media (max-width:800px){
     .title{
         font-size: 1.5em;
         margin: 0 0 1em 0;
@@ -135,7 +135,7 @@
     
       }
       h1{
-        font-size: 1.2em;
+        font-size: 1em;
       }
       h2{
         font-size: 0.8em;
