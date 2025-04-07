@@ -160,7 +160,7 @@
   
 }
 .FellanM{
-  background-image:url(images/work/fellan-m/FM__1.43.1.webp);
+  background-image:url(images/work/fellan-m/FM__1.25.1\ 2.webp);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -228,7 +228,9 @@ font-size: 0.5em;
 @media (max-width:750px){
   .film-title{
     font-size: 1em;
-  }
+    opacity: 100;
+    color: white;
+    }
 .title{
   text-align: center;}
 
