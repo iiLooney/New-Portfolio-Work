@@ -1,0 +1,258 @@
+*{
+  box-sizing: border-box;
+}
+.body-wrapper{
+  padding-top: 2%;
+  padding-bottom: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex: 1 1 80%;
+  min-height:100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: 1fr;
+  height:100%;
+  grid-gap:1.5vw;
+  padding-bottom: 1em;
+}
+.title{
+    color: #0783A0;
+    font-size: 2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+
+}
+
+.item {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background: lightgray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.item:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  padding-bottom: calc(9/16 * 100%);
+}
+/* Images for Grids */
+
+
+.MYC{
+  background-image:url(images/work/myc/stills/MYC_13alt.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+
+.JACKO{
+  background-image:url(images/work/jacko/jacko2.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.MidC{
+  background-image:url(images/work/midc/webp/mc_oo.webp);
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.LightB{
+  background-image:url(images/work/lb/LB_5.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.HLSorry{
+  background-image:url(images/work/harry-lyon-sorry/HarrySorry_7.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Therapy{
+  background-image:url(images/work/therapy/Therapy_2main.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Pulped{
+  background-image:url(images/work/david-shrigley/Pulped_11.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.WIAAWTM{
+  background-image:url(images/work/wiaawtm/WIAAWTM_10.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+
+.OSK_Petite{
+  background-image:url(images/work/petite/Petite_Cover.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.BeinginLove{
+  background-image:url(images/work/aht-beinginlove/BeinginLove_1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.PlasticSong{
+  background-image:url(images/work/aht-plasticsong/PlasticSong_5.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.FLEETING{
+  background-image:url(images/work/fleeting/FLEETINGmain16.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+
+.CALLMYBLUFF{
+  background-image:url(images/work/callmybluff/CMB_Web_3.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.LastSaturdayNight{
+  background-image:url(images/work/lastsaturdaynight/yenk_lsn_16.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.FellanM{
+  background-image:url(images/work/fellan-m/FM__1.3.1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Unsung{
+  background-image:url(images/work/unsung/UNSUNG-2.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.YFaithfully{
+  background-image:url(images/work/yfaithfully/yf_main1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.EncoreFB{
+  background-image:url(images/work/encorefb/ENCORE-main.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.CSR{
+  background-image:url(images/work/csr/CSR-HEAD2.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.film-title{
+  font-size: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255, 0.1);
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2.1em;
+}
+
+.film-title:hover{
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.item:hover{
+transform: scale(1.01);
+}
+
+.film-subheading{
+margin-top: 0.1em;
+font-size: 0.5em;
+}
+
+
+@media (max-width:750px){
+  .film-title{
+    font-size: 1em;
+    color: white;
+    }
+.title{
+  text-align: center;}
+
+  
+.grid{
+    padding-top: .5em;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 0 5% 0;
+}
+}
+
+@media (max-width:750px){
+  .body-wrapper{
+ margin-right: 0%;
+  margin-left: 0%;
+}
+}
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
+{  border-radius: 24px;
+}
+
+
+
+
+

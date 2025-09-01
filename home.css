@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 .body-wrapper{
-  /*padding-top: 2%;
+  padding-top: 2%;
   padding-bottom: 0%;
   margin-right: 5%;
-  margin-left: 5%; */
+  margin-left: 5%;
   flex: 1 1 80%;
   min-height:100%;
 }
@@ -16,7 +16,6 @@
   height:100%;
   grid-gap:1.5vw;
   padding-bottom: 1em;
-  margin: 3%;
 }
 .title{
     color: #0783A0;
@@ -34,12 +33,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
-.landing-header{
- justify-content:center;
-  align-items:center;
-}
-
 .item:before {
   content: "";
   display: block;
@@ -108,11 +101,6 @@
   border-radius: 12px;
   
 }
-
-.home-links:hover{
-  color: rgba(255, 255, 255, 1);
-  opacity: .5;
-}
 .WIAAWTM{
   background-image:url(images/work/wiaawtm/WIAAWTM_10.webp);
   background-size:cover;
@@ -138,15 +126,6 @@
   border-radius: 12px;
   
 }
-.video-mask{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.brand-title{
-  text-align: center;
-}
 .PlasticSong{
   background-image:url(images/work/aht-plasticsong/PlasticSong_5.webp);
   background-size:cover;
@@ -155,17 +134,6 @@
   border-radius: 12px;
   
 }
-
-.home-links{
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- text-decoration: none;
- color: white;
- opacity: 1;
- display: block;
- font-size: 1.8em;
-
-}
 .FLEETING{
   background-image:url(images/work/fleeting/FLEETINGmain16.webp);
   background-size:cover;
@@ -173,10 +141,6 @@
   transition: 0.3s;
   border-radius: 12px;
   
-}
-
-.top{
-  position: absolute;
 }
 
 .CALLMYBLUFF{
@@ -233,8 +197,8 @@
   position: relative;
   transition: 0.3s;
   border-radius: 12px;
+  
 }
-
 .film-title{
   font-size: 1.6em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -259,60 +223,32 @@ transform: scale(1.01);
 margin-top: 0.1em;
 font-size: 0.5em;
 }
-/*.body-rapper{
-  margin-right: 0%;
-   margin-left: 5%;
-   padding: 5%;
-  }
-   */
 
 
 @media (max-width:750px){
   .film-title{
     font-size: 1em;
+    color: white;
     }
-  }
 .title{
   text-align: center;}
 
-  @media (max-width:1100px){
-   
-       .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        grid-template-rows: 1fr;
-        height:100%;
-        grid-gap:2.5vw;
-        padding-bottom: 0em;
-      }
-  }
+  
+.grid{
+    padding-top: .5em;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 0 5% 0;
+}
+}
 
-@media (max-width:600px){
+@media (max-width:750px){
   .body-wrapper{
  margin-right: 0%;
-  margin-left: 0%;}
-  .body-rapper{
-    margin-right: 0%;
-     margin-left: 0%;
-     padding: 0%;
-  }
-     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-      grid-template-rows: 1fr;
-      height:100%;
-      grid-gap:2.5vw;
-      padding-bottom: 0em;
-    }
+  margin-left: 0%;
 }
-@media (min-width:1725px){
-  
-  .grid{
-      grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-  
-  }
 }
-.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNG:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
 {  border-radius: 24px;
 }
 

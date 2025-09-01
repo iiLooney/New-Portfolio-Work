@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+}
+.body-wrapper{
+  padding-top: 2%;
+  padding-bottom: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex: 1 1 80%;
+  min-height:100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-rows: 1fr;
+  height:100%;
+  grid-gap:1.5vw;
+  padding-bottom: 1em;
+}
+.title{
+    color: #0783A0;
+    font-size: 2em;
+    margin: 0 0 .25em 0;
+    flex-wrap: nowrap;
+
+}
+
+.item {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background: lightgray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.item:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  padding-bottom: calc(9/16 * 100%);
+}
+/* Images for Grids */
+
+
+
+.MFRushmere{
+  background-image:url(images/work/dit/Rushmere_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.FredsLR{
+  background-image:url(images/work/dit/fredslr_1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Ambulance{
+  background-image:url(images/work/dit/ambulance_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.PixelxPele{
+  background-image:url(images/work/dit/pele.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.RWDesire{
+  background-image:url(images/work/dit/RW_Desire_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Surgeons{
+  background-image:url(images/work/dit/surgeons_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Critical{
+  background-image:url(images/work/dit/critical_02.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.BTD{
+  background-image:url(images/work/dit/bringthed.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Berg25{
+  background-image:url(images/work/dit/berghaus.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.SaltPath{
+  background-image:url(images/work/dit/saltpath.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.P4TIntruder{
+  background-image:url(images/work/dit/Intruder.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.film-title{
+  font-size: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255, 0.1);
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2.1em;
+}
+
+.film-title:hover{
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.item:hover{
+transform: scale(1.01);
+}
+
+.film-subheading{
+margin-top: 0.1em;
+font-size: 0.5em;
+}
+
+
+@media (max-width:750px){
+  .film-title{
+    font-size: 1em;
+    color: white;
+    }
+.title{
+  text-align: center;}
+
+  
+.grid{
+    padding-top: .5em;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 0 5% 0;
+}
+}
+
+@media (max-width:750px){
+  .body-wrapper{
+ margin-right: 0%;
+  margin-left: 0%;
+}
+}
+.LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
+{  border-radius: 24px;
+}
+
+
+
+
+
