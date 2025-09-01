@@ -77,7 +77,7 @@
   
 }
 .RWDesire{
-  background-image:url(images/work/dit/RW_Desire_1.jpg);
+  background-image:url(images/work/dit/RWDesire_2.png);
   background-size:cover;
   position: relative;
   transition: 0.3s;
@@ -161,17 +161,18 @@ font-size: 0.5em;
 @media (max-width:750px){
   .film-title{
     font-size: 1em;
+    opacity: 1;
     color: white;
     }
 .title{
   text-align: center;}
-
   
 .grid{
     padding-top: .5em;
     grid-gap: 5vw;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     padding: 0 5% 0;
+    opacity: .75;
 }
 }
 

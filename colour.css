@@ -228,17 +228,18 @@ font-size: 0.5em;
 @media (max-width:750px){
   .film-title{
     font-size: 1em;
+    opacity: 1;
     color: white;
     }
 .title{
   text-align: center;}
-
   
 .grid{
     padding-top: .5em;
     grid-gap: 5vw;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     padding: 0 5% 0;
+    opacity: .75;
 }
 }
 
@@ -251,6 +252,7 @@ font-size: 0.5em;
 .LightB:HOVER, .LLL:HOVER, .MYC:hover, .WIAAWTM:hover, .UNSNGx:hover, .MidnightCity:hover, .pulped-fiction:hover, .LDOE:hover, .JACKO:hover, .harry-lyon:hover, .finscealta-therapy:hover, .osk-natoflorine-petite:hover,
 {  border-radius: 24px;
 }
+
 
 
 
