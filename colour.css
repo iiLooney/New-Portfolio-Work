@@ -199,6 +199,95 @@
   border-radius: 12px;
   
 }
+
+.MFRushmere{
+  background-image:url(images/work/dit/Rushmere_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.FredsLR{
+  background-image:url(images/work/dit/fredslr_1.webp);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Ambulance{
+  background-image:url(images/work/dit/ambulance_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.PixelxPele{
+  background-image:url(images/work/dit/pele.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.RWDesire{
+  background-image:url(images/work/dit/RWDesire_3.png);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Surgeons{
+  background-image:url(images/work/dit/surgeons_1.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Critical{
+  background-image:url(images/work/dit/critical_02.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.BTD{
+  background-image:url(images/work/dit/bringthed.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.Berg25{
+  background-image:url(images/work/dit/berghaus.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.SaltPath{
+  background-image:url(images/work/dit/saltpath.jpg);
+  background-size:cover;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
+.P4TIntruder{
+  background-image:url(images/work/dit/Intruder.jpg);
+  background-size:contain;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 12px;
+  
+}
 .film-title{
   font-size: 1.6em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -239,7 +328,7 @@ font-size: 0.5em;
     grid-gap: 5vw;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     padding: 0 5% 0;
-    opacity: .75;
+    opacity: .85;
 }
 }
 
